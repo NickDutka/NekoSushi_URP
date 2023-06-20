@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487532ece56af9c40a4e49f08d0030b3, type: 3}
+  m_Name: StepInstructions
+  m_EditorClassIdentifier: 
+  instructions:
+  - "Now let's start slicing the fillet from the back side of the salmon. \nPlace
+    the bottom part of the knife on the fish block. \nMake sure you keep the knife
+    at an angle to cut diagonally."
+  - "With your left hand, firmly hold the fish in place. \nGliding the knife towards
+    you and slice it with one stroke. \nUse the whole blade."
+  - "Now start slicing.\nSlide the knife towards yourself. \nBefore you finish slicing
+    completely, stop sliding the knife."
+  instructionImages:
+  - {fileID: 21300000, guid: bf3da812ea11d7e439da755ce877a21b, type: 3}
+  - {fileID: 21300000, guid: 003bc594193bbd441867c8a5ee240176, type: 3}
+  - {fileID: 21300000, guid: 96187b75f343e6b4184fe2a265f9df6b, type: 3}
