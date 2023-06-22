@@ -10,6 +10,8 @@ public class StructureBuilderEditor : EditorWindow
     private float prefabOffsetX = 1f;
     private float prefabOffsetZ = 1f;
     private string containerName = "Structure";
+    private Vector3 prefabScale = Vector3.one;
+    private bool addMeshCollider = false; // New checkbox field
 
     [MenuItem("Window/Structure Builder")] // Add this script to the Window menu
     public static void ShowWindow()
@@ -30,6 +32,9 @@ public class StructureBuilderEditor : EditorWindow
         prefabOffsetZ = EditorGUILayout.FloatField("Prefab Offset Z", prefabOffsetZ);
 
         containerName = EditorGUILayout.TextField("Container Name", containerName);
+        prefabScale = EditorGUILayout.Vector3Field("Prefab Scale Scale", prefabScale);
+        // Create a checkbox for adding mesh collider
+        addMeshCollider = EditorGUILayout.Toggle("Add Mesh Collider", addMeshCollider);
 
         // Create a button for building the structure
         if (GUILayout.Button("Build Structure"))
@@ -49,6 +54,7 @@ public class StructureBuilderEditor : EditorWindow
         // Create an empty container object to parent the instantiated prefabs
         GameObject container = new GameObject(containerName);
 
+
         // Instantiate the prefabs and position them accordingly in a grid layout
         for (int row = 0; row < numberOfRows; row++)
         {
@@ -61,6 +67,18 @@ public class StructureBuilderEditor : EditorWindow
 
                 // Parent the instantiated prefabs to the container object
                 prefabInstance.transform.parent = container.transform;
+
+                prefabInstance.transform.localScale = prefabScale;
+
+                // Add mesh collider if the checkbox is checked
+                if (addMeshCollider)
+                {
+                    MeshCollider meshCollider = prefabInstance.GetComponent<MeshCollider>();
+                    if (meshCollider == null)
+                    {
+                        prefabInstance.AddComponent<MeshCollider>();
+                    }
+                }
             }
         }
     }
