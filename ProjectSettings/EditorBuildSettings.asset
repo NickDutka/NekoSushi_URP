@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/01_MyAssets/Scenes/01_EnviroPrototypeOptimized.unity
+    guid: 529895602ee9b3349b9d6fde6ba58686
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3b580bfc67602da49b3ea7349d412154,
       type: 2}
