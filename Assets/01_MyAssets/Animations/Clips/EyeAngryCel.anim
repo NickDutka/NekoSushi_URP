@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Blinking
+  m_Name: EyeAngryCel
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,16 +20,8 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 0}
-    - time: 1
       value: {fileID: 2100000, guid: 70561009fcf209b4ab85912841945ce1, type: 2}
-    - time: 1.0333333
-      value: {fileID: 2100000, guid: 7110fd824166d1e42970f9a2c0dd0c25, type: 2}
-    - time: 1.0833334
-      value: {fileID: 2100000, guid: 70561009fcf209b4ab85912841945ce1, type: 2}
-    - time: 1.1166667
-      value: {fileID: 2100000, guid: 87898901b62f70f4ea46ea54b33a9e25, type: 2}
-    attribute: m_Materials.Array.data[6]
+    attribute: m_Materials.Array.data[1]
     path: Konro
     classID: 137
     script: {fileID: 0}
@@ -42,28 +34,24 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 134871175
-      attribute: 6
+      attribute: 1
       script: {fileID: 0}
       typeID: 137
       customType: 21
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 0}
     - {fileID: 2100000, guid: 70561009fcf209b4ab85912841945ce1, type: 2}
-    - {fileID: 2100000, guid: 7110fd824166d1e42970f9a2c0dd0c25, type: 2}
-    - {fileID: 2100000, guid: 70561009fcf209b4ab85912841945ce1, type: 2}
-    - {fileID: 2100000, guid: 87898901b62f70f4ea46ea54b33a9e25, type: 2}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.1333333
+    m_StopTime: 0.016666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
