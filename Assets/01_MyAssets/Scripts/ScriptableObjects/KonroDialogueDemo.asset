@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487532ece56af9c40a4e49f08d0030b3, type: 3}
+  m_Name: KonroDialogueDemo
+  m_EditorClassIdentifier: 
+  instructions:
+  - So you want to make <color=red>sushi</color> do ya?
+  - Before I even think about lettin' you touch a fish, show me what you can do with
+    these vegetables.
+  - Pick up the <color=red>Nakiri</color> knife rookie!
+  - That's not the right knife cowboy! I said <color=red>Nakiri</color>!
+  - So you do know what a  <color=red>Nakiri</color> is...
+  - Time for a warm up, try slicing those <color=red>cucumbers</color> over there.
+  instructionImages: []

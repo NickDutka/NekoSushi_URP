@@ -3,7 +3,12 @@ guid: 0a4a991b06e6ce54b89d31e32400488b
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas
+    second: {fileID: 2100000, guid: 2b3dffb4a1fbf3d4b803095cc2405fdc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
