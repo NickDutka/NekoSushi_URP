@@ -42,14 +42,14 @@ public class SliceObjectDistanceTraveled : MonoBehaviour
          
         if (isSlicing && canSlice == true)
         {
-            Debug.Log("Knife is slicing, switch layer");
+            //Debug.Log("Knife is slicing, switch layer");
             int knifeBladeLayerIndex = LayerMask.NameToLayer("KnifeBlade");
             knifeBladeGO.layer = knifeBladeLayerIndex;
 
         }
         else
         {
-            Debug.Log("Knife is not slicing, switch layer back");
+            //Debug.Log("Knife is not slicing, switch layer back");
             int defaultLayerIndex = LayerMask.NameToLayer("Default");
             knifeBladeGO.layer = defaultLayerIndex;
         }
