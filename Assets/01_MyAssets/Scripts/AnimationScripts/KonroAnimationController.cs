@@ -13,7 +13,7 @@ public class KonroAnimationController : MonoBehaviour
     private int blinkLayerIndex;
     private int baseLayerIndex;
 
-    [SerializeField] KonroDialogueUI konroDialogueUI;
+    [SerializeField] StepManagerIntroScene stepManagerIntroScene;
 
     private void Awake()
     {
@@ -38,33 +38,33 @@ public class KonroAnimationController : MonoBehaviour
             StartCoroutine(CheckBlinkCompletion());
         }
         //
-        if (konroDialogueUI.currentStep < 2)
+        if (stepManagerIntroScene.currentStep < 2)
         {
             SetTalkingState(true);
         }
 
         // Telling you to grab Nakiri
-        if (konroDialogueUI.currentStep == 2)
+        if (stepManagerIntroScene.currentStep == 2)
         {
             SetAngryState(false);
             SetTalkingState(false);
             SetPointTalkingState(true);
         }
         // If you grab wrong knife, konro gets angry
-        if (konroDialogueUI.currentStep == 3)
+        if (stepManagerIntroScene.currentStep == 3)
         {
             SetPointTalkingState(false);
             SetAngryState(true);
         }
         // If you grab the right knife, konro is happy
-        if (konroDialogueUI.currentStep >= 4)
+        if (stepManagerIntroScene.currentStep >= 4)
         {
             SetAngryState(false);
             SetPointTalkingState(false);
             SetTalkingState(true);
         }
         // Telling you to cut cucumbers
-        if (konroDialogueUI.currentStep == 5)
+        if (stepManagerIntroScene.currentStep == 5)
         {
             SetTalkingState(false);
             SetPointTalkingState(true);
