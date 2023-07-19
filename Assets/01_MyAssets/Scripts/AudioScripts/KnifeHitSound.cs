@@ -4,7 +4,7 @@ public class KnifeHitSound : MonoBehaviour
 {
     public AudioSource audioSource;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
         if(other.gameObject.CompareTag("CuttingBoard"))
         {

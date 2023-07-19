@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using EzySlice;
+using Autohand;
 
 public class SliceObjectDistanceTraveled : MonoBehaviour
 {
@@ -98,11 +99,13 @@ public class SliceObjectDistanceTraveled : MonoBehaviour
             {
 
                 GameObject upperHull = hull.CreateUpperHull(target, crossSectionMaterial);
+                upperHull.layer = LayerMask.NameToLayer("Sliceable");
                 SetupSlicedComponent(upperHull);
-                upperHull.layer = target.layer;
+                
                 GameObject lowerHull = hull.CreateLowerHull(target, crossSectionMaterial);
+                lowerHull.layer = LayerMask.NameToLayer("Sliceable");
                 SetupSlicedComponent(lowerHull);
-                lowerHull.layer = target.layer;
+                
 
                 Destroy(target);
 
@@ -127,6 +130,7 @@ public class SliceObjectDistanceTraveled : MonoBehaviour
         Rigidbody rb = slicedObject.AddComponent<Rigidbody>();
         MeshCollider collider = slicedObject.AddComponent<MeshCollider>();
         collider.convex = true;
+        slicedObject.AddComponent<Grabbable>();
         rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
     }
 }
