@@ -17,6 +17,7 @@ public class KonroAnimationController : MonoBehaviour
 
     private void Awake()
     {
+
         animator = GetComponent<Animator>();
         blinkLayerIndex = animator.GetLayerIndex("Blink");
         baseLayerIndex = animator.GetLayerIndex("Base Layer");
@@ -30,66 +31,85 @@ public class KonroAnimationController : MonoBehaviour
 
     private void Update()
     {
-        // Check if it's not angry and time to trigger a blink
-        if (!isAngry && !isBlinking && Time.time >= nextBlinkTime)
+        if (stepManagerIntroScene != null)
         {
-            Debug.Log("Check if it's not angry and time to trigger a blink");
-            SetBlinkState(true);
-            StartCoroutine(CheckBlinkCompletion());
-        }
-        //
-        if (stepManagerIntroScene.currentStep < 2)
-        {
-            SetTalkingState(true);
+            // Use the stepManagerIntroScene here
+
+            // Check if it's not angry and time to trigger a blink
+            if (!isAngry && !isBlinking && Time.time >= nextBlinkTime)
+            {
+                //Debug.Log("Check if it's not angry and time to trigger a blink");
+                SetBlinkState(true);
+                StartCoroutine(CheckBlinkCompletion());
+            }
+            //
+            if (stepManagerIntroScene.currentStep < 2)
+            {
+                SetTalkingState(true);
+            }
+
+            // Telling you to grab Nakiri
+            if (stepManagerIntroScene.currentStep == 2)
+            {
+                SetAngryState(false);
+                SetTalkingState(false);
+                SetPointTalkingState(true);
+            }
+            // If you grab wrong knife, konro gets angry
+            if (stepManagerIntroScene.currentStep == 3)
+            {
+                SetPointTalkingState(false);
+                SetAngryState(true);
+            }
+            // If you grab the right knife, konro is happy
+            if (stepManagerIntroScene.currentStep >= 4)
+            {
+                SetAngryState(false);
+                SetPointTalkingState(false);
+                SetTalkingState(true);
+            }
+            // Telling you to cut cucumbers
+            if (stepManagerIntroScene.currentStep == 5)
+            {
+                SetTalkingState(false);
+                SetPointTalkingState(true);
+            }
+
+            // Check if it's not angry and the space key is pressed
+            if (!isAngry && Input.GetKeyDown(KeyCode.Space))
+            {
+                SetAngryState(true);
+            }
+            // Check if it's angry and the space key is pressed
+            else if (isAngry && Input.GetKeyDown(KeyCode.Space))
+            {
+                SetAngryState(false);
+            }
+            // Check if it's not talking and the T key is pressed
+            if (!isTalking && Input.GetKeyDown(KeyCode.T))
+            {
+                SetTalkingState(true);
+            }
+            // Check if it's talking and the T key is pressed
+            else if (isTalking && Input.GetKeyDown(KeyCode.T))
+            {
+                SetTalkingState(false);
+            }
         }
 
-        // Telling you to grab Nakiri
-        if (stepManagerIntroScene.currentStep == 2)
+        else
         {
-            SetAngryState(false);
-            SetTalkingState(false);
-            SetPointTalkingState(true);
-        }
-        // If you grab wrong knife, konro gets angry
-        if (stepManagerIntroScene.currentStep == 3)
-        {
-            SetPointTalkingState(false);
-            SetAngryState(true);
-        }
-        // If you grab the right knife, konro is happy
-        if (stepManagerIntroScene.currentStep >= 4)
-        {
-            SetAngryState(false);
-            SetPointTalkingState(false);
-            SetTalkingState(true);
-        }
-        // Telling you to cut cucumbers
-        if (stepManagerIntroScene.currentStep == 5)
-        {
-            SetTalkingState(false);
-            SetPointTalkingState(true);
-        }
+            Debug.LogWarning("stepManagerIntroScene is not assigned in the Inspector.");
 
-        // Check if it's not angry and the space key is pressed
-        if(!isAngry && Input.GetKeyDown(KeyCode.Space))
-        {
-            SetAngryState(true);
+            // Check if it's not angry and time to trigger a blink
+            if (!isAngry && !isBlinking && Time.time >= nextBlinkTime)
+            {
+                //Debug.Log("Check if it's not angry and time to trigger a blink");
+                SetBlinkState(true);
+                StartCoroutine(CheckBlinkCompletion());
+            }
         }
-        // Check if it's angry and the space key is pressed
-        else if(isAngry && Input.GetKeyDown(KeyCode.Space))
-        {
-            SetAngryState(false);
-        }
-        // Check if it's not talking and the T key is pressed
-        if(!isTalking && Input.GetKeyDown(KeyCode.T))
-        {
-            SetTalkingState(true);
-        }
-        // Check if it's talking and the T key is pressed
-        else if (isTalking && Input.GetKeyDown(KeyCode.T))
-        {
-            SetTalkingState(false);
-        }   
+   
     }
 
     private void SetBlinkState(bool state)
@@ -127,13 +147,13 @@ public class KonroAnimationController : MonoBehaviour
         // Wait until the blink animation has finished playing
         //yield return new WaitWhile(() => animator.GetCurrentAnimatorStateInfo(blinkLayerIndex).IsName("Blink"));
 
-        Debug.Log("Blink finished");
+        //Debug.Log("Blink finished");
         SetBlinkState(false);
         SetRandomBlinkTime();
     }
 
     private void SetRandomBlinkTime()
     {
-        nextBlinkTime = Time.time + Random.Range(1f, 10f);
+        nextBlinkTime = Time.time + Random.Range(1f, 5f);
     }
 }
