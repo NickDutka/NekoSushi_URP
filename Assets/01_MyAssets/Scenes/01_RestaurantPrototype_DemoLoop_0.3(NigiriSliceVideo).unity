@@ -6910,7 +6910,7 @@ PrefabInstance:
     - target: {fileID: 3638867399044997705, guid: 20ddb8b803fbc3e40b6cac80d288eb78,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5107282869487879113, guid: 20ddb8b803fbc3e40b6cac80d288eb78,
         type: 3}
@@ -7716,6 +7716,16 @@ PrefabInstance:
         type: 3}
       propertyPath: cutForce
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3430022252289144528, guid: cf7770d4b2e396341a1e1013c8837a19,
+        type: 3}
+      propertyPath: sliceDelay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3430022252289144528, guid: cf7770d4b2e396341a1e1013c8837a19,
+        type: 3}
+      propertyPath: sliceCooldown
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3430022252289144528, guid: cf7770d4b2e396341a1e1013c8837a19,
         type: 3}
