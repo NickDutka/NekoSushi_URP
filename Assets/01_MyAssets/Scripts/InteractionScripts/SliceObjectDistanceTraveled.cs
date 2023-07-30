@@ -100,10 +100,12 @@ public class SliceObjectDistanceTraveled : MonoBehaviour
 
                 GameObject upperHull = hull.CreateUpperHull(target, crossSectionMaterial);
                 upperHull.layer = LayerMask.NameToLayer("Sliceable");
+                upperHull.tag = "SlicedObject";
                 SetupSlicedComponent(upperHull);
                 
                 GameObject lowerHull = hull.CreateLowerHull(target, crossSectionMaterial);
                 lowerHull.layer = LayerMask.NameToLayer("Sliceable");
+                lowerHull.tag = "SlicedObject";
                 SetupSlicedComponent(lowerHull);
                 
 
