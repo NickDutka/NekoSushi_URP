@@ -10,6 +10,7 @@ public class StepManagerNigiriScene : MonoBehaviour
 {
     [SerializeField] private TMP_Text dialogueText; // Reference to the TextMeshProUGUI component displaying the instructions
     [SerializeField] private StepInstructionsSO stepInstructionsSO; // Reference to the StepInstructionsSO scriptable object
+    [SerializeField] private DisableKnives disableKnives; // Reference to the DisableKnives script
     [SerializeField] private float fadeDuration = 0.5f; // Duration of the fade animation in seconds
 
     public int currentStep = 0; // Variable to track the current step index
@@ -38,7 +39,7 @@ public class StepManagerNigiriScene : MonoBehaviour
     [SerializeField] private bool isButtonActive2;
 
     // Audio Events
-    [SerializeField] private AudioSource nakiriWinAudio;
+    [SerializeField] private AudioSource yanagibaWinAudio;
 
     [SerializeField] private AudioSource konroAudioSource;
 
@@ -132,15 +133,19 @@ public class StepManagerNigiriScene : MonoBehaviour
             UpdateDialogueText(); // Update the instruction text
         }
     }
+    private bool finishDialogueSquence = false;
     public void FinishDialogueSequence()
     {
-        if (currentStep < stepInstructionsSO.Instructions.Length - 1)
+        if (currentStep < stepInstructionsSO.Instructions.Length - 1 && finishDialogueSquence == false)
         {
+            finishDialogueSquence = true;
             currentStep = 4; // Increment the current step index if there are more steps available
-            nakiriWinAudio.Play(); // Play the win sound
+            yanagibaWinAudio.Play(); // Play the win sound
             konroAudioSource.clip = happy;
             konroAudioSource.Play();
             UpdateDialogueText(); // Update the instruction text
+            disableKnives.DisableKnife(); // Disable the knives
+
         }
     }
     public void WrongKnifeSequence()

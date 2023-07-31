@@ -21,5 +21,16 @@ MonoBehaviour:
   - Good. We will start with salmon, a true classic, and one of our <color=red>Esteemed
     Guest's</color> favourites.
   - Grab a <color=red>Salmon Fillet</color> over there and let's see if you remember
-    what you learned at the Academy
+    what you learned at the Academy.
+  - 'Not bad for a rookie...
+
+    Time to prepare the slices for <color=red>nigiri</color>,
+    start by placing one of the pieces on the cutting board.'
+  - 'Nice work rookie... Maybe you''re up to the task afterall!
+
+    Grab the <color=red>Tuna</color>
+    over there and prepare that next.'
+  - That's it! Now slice the tuna for nigiri
+  - Strong work cowboy, all the <color=red>salmon</color> and <color=red>tuna</color>
+    are sliced and ready for nigiri!
   instructionImages: []

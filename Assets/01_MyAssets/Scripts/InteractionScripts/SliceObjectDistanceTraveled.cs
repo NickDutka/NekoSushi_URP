@@ -133,6 +133,7 @@ public class SliceObjectDistanceTraveled : MonoBehaviour
         MeshCollider collider = slicedObject.AddComponent<MeshCollider>();
         collider.convex = true;
         slicedObject.AddComponent<Grabbable>();
+        slicedObject.AddComponent<OnDestroyEvent>();
         rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
     }
 }

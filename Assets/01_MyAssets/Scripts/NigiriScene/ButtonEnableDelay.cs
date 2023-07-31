@@ -9,7 +9,7 @@ public class ButtonEnableDelay : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(EnableTargetScriptDelayed());
+        // StartCoroutine(EnableTargetScriptDelayed());
     }
     private void OnEnable()
     {
@@ -19,10 +19,19 @@ public class ButtonEnableDelay : MonoBehaviour
         StartCoroutine(EnableTargetScriptDelayed());
 
     }
+    private void OnDisable()
+    {
+        DisableScript();
+    }
 
     private IEnumerator EnableTargetScriptDelayed()
     {
         yield return new WaitForSeconds(3f);
         scriptToEnable.enabled = true;
+    }
+
+    private void DisableScript()
+    {
+        scriptToEnable.enabled = false;
     }
 }

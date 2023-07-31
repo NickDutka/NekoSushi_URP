@@ -5,10 +5,15 @@ using UnityEditor;
 #endif
 public class ResetSalmon : MonoBehaviour
 {
+    public NigiriStepManager nigiriStepManager;
+    public SakudoriCheck sakudoriCheck;
+
     public GameObject prefabToSpawn; // The prefab you want to spawn
     public Transform spawnTransform; // The specific transform where you want to spawn the prefab
 
     public GameObject currentSpawnedPrefab; // Reference to the currently spawned prefab
+    public GameObject[] currentSalmonSlices;
+
     public ParticleSystem spawnParticles;
     public AudioSource resetSoundAudioSource;
     public AudioClip resetSound;
@@ -16,25 +21,39 @@ public class ResetSalmon : MonoBehaviour
     // Call this function to delete the current prefab and spawn a new one at the specified transform
     public void DeleteAndSpawnNewPrefab()
     {
-        // Destroy any objects with the "SlicedObject" tag
-        GameObject[] slicedObjects = GameObject.FindGameObjectsWithTag("SlicedObject");
-        foreach (GameObject slicedObject in slicedObjects)
+        if (nigiriStepManager.nigiriStep == 1)
         {
-            Destroy(slicedObject);
+            // Destroy any objects with the "SlicedObject" tag
+            GameObject[] slicedObjects = GameObject.FindGameObjectsWithTag("SlicedObject");
+            foreach (GameObject slicedObject in slicedObjects)
+            {
+                Destroy(slicedObject);
+            }
+            // Check if there's already a spawned prefab and destroy it if it exists
+            if (currentSpawnedPrefab != null)
+            {
+                Destroy(currentSpawnedPrefab);
+            }
+            spawnParticles.Play();
+            resetSoundAudioSource.PlayOneShot(resetSound);
+            // Spawn the new prefab at the specified transform
+            currentSpawnedPrefab = Instantiate(prefabToSpawn, spawnTransform.position, spawnTransform.rotation);
         }
 
-        // Check if there's already a spawned prefab and destroy it if it exists
-        if (currentSpawnedPrefab != null)
+        if(nigiriStepManager.nigiriStep == 3)
         {
-            Destroy(currentSpawnedPrefab);
-        }
-        
-        spawnParticles.Play();
+            // Destroy any objects with the "SlicedObject" tag
+            GameObject[] slicedObjects = GameObject.FindGameObjectsWithTag("SlicedObject");
+            foreach (GameObject slicedObject in slicedObjects)
+            {
+                Destroy(slicedObject);
+            }
 
-        resetSoundAudioSource.PlayOneShot(resetSound);
-        // Spawn the new prefab at the specified transform
-        currentSpawnedPrefab = Instantiate(prefabToSpawn, spawnTransform.position, spawnTransform.rotation);
-        
+            spawnParticles.Play();
+            resetSoundAudioSource.PlayOneShot(resetSound);
+            sakudoriCheck.SpawnObjectsFromStoredData();
+        }
+
     }
 
 }
