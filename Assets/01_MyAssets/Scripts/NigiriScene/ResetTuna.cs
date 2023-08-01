@@ -5,6 +5,9 @@ using UnityEditor;
 #endif
 public class ResetTuna : MonoBehaviour
 {
+    public NigiriStepManager nigiriStepManager;
+    public SakudoriCheck sakudoriCheck;
+
     public GameObject prefabToSpawn; // The prefab you want to spawn
     public Transform spawnTransform; // The specific transform where you want to spawn the prefab
 
@@ -16,27 +19,40 @@ public class ResetTuna : MonoBehaviour
     // Call this function to delete the current prefab and spawn a new one at the specified transform
     public void DeleteAndSpawnNewTunaPrefab()
     {
-        // Destroy any objects with the "SlicedObject" tag
-        GameObject[] slicedObjects = GameObject.FindGameObjectsWithTag("SlicedObject");
-        foreach (GameObject slicedObject in slicedObjects)
+        if (nigiriStepManager.nigiriStep == 1)
         {
-            Destroy(slicedObject);
+            // Destroy any objects with the "SlicedObject" tag
+            GameObject[] slicedObjects = GameObject.FindGameObjectsWithTag("SlicedObject");
+            foreach (GameObject slicedObject in slicedObjects)
+            {
+                Destroy(slicedObject);
+            }
+            // Check if there's already a spawned prefab and destroy it if it exists
+            if (currentSpawnedPrefab != null)
+            {
+                Destroy(currentSpawnedPrefab);
+            }
+            spawnParticles.Play();
+            resetSoundAudioSource.PlayOneShot(resetSound);
+            // Spawn the new prefab at the specified transform
+            currentSpawnedPrefab = Instantiate(prefabToSpawn, spawnTransform.position, spawnTransform.rotation);
         }
 
-        // Check if there's already a spawned prefab and destroy it if it exists
-        if (currentSpawnedPrefab != null)
+        if (nigiriStepManager.nigiriStep == 6)
         {
-            Destroy(currentSpawnedPrefab);
+            // Destroy any objects with the "SlicedObject" tag
+            GameObject[] slicedObjects = GameObject.FindGameObjectsWithTag("SlicedObject");
+            foreach (GameObject slicedObject in slicedObjects)
+            {
+                Destroy(slicedObject);
+            }
+
+            spawnParticles.Play();
+            resetSoundAudioSource.PlayOneShot(resetSound);
+            sakudoriCheck.SpawnObjectsFromStoredData();
         }
-
-        spawnParticles.Play();
-
-        resetSoundAudioSource.PlayOneShot(resetSound);
-        // Spawn the new prefab at the specified transform
-        currentSpawnedPrefab = Instantiate(prefabToSpawn, spawnTransform.position, spawnTransform.rotation);
 
     }
-
 }
 #if UNITY_EDITOR
 [CustomEditor(typeof(ResetTuna))]

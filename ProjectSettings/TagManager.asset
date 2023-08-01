@@ -7,6 +7,9 @@ TagManager:
   - CuttingBoard
   - SlicedObject
   - SalmonSlice
+  - TunaSlice
+  - Rice
+  - Nigiri
   layers:
   - Default
   - TransparentFX

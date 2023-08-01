@@ -1,0 +1,491 @@
+fileFormatVersion: 2
+guid: 4acdc94ba7692274883b803295345a25
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ground
+    second: {fileID: 2100000, guid: 1d4b08218e72774439afb5d7085919af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NameBoard
+    second: {fileID: 2100000, guid: 214f8a6d3d3ee884b92fd482afbcb936, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairs
+    second: {fileID: 2100000, guid: 1a9911735728b654487d34eb543e891f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: another wood
+    second: {fileID: 2100000, guid: 1c544a0c94a97ff449b08c6dcd0f9195, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bayroq
+    second: {fileID: 2100000, guid: 683c31dacac930c468eb9c1700091005, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 688b47608cdd76145ab1ea9ec7300bbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chair
+    second: {fileID: 2100000, guid: d85dbd2f723edd944b629a58f2670fd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concrete
+    second: {fileID: 2100000, guid: 86746d32f786bff4ab514bddde47617d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: delivery
+    second: {fileID: 2100000, guid: 411831e601c6b4749934282700189f3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doll
+    second: {fileID: 2100000, guid: 017b901085dc08741b09b1d973f7677a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doska
+    second: {fileID: 2100000, guid: 8afe606b7352a864dbe9dc9bc6d1e438, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doska black part
+    second: {fileID: 2100000, guid: 8992f8fbcaf693f41bf5fe05300fa905, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doskacha yozuv
+    second: {fileID: 2100000, guid: 6a8604bd800fb1243a267c60951c043f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: emission
+    second: {fileID: 2100000, guid: 0a61c2e8d3fd0574e974305549149088, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fabric
+    second: {fileID: 2100000, guid: 6b1e3e928654bc444af6117784de983f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: foodDish
+    second: {fileID: 2100000, guid: 390f2dc14d695d8479bac894e18a628d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ground1
+    second: {fileID: 2100000, guid: 8ca0b4ab316b9af4a99aa2264f192e73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kalmar
+    second: {fileID: 2100000, guid: b5af9a361be81f341b39f3fae3ad3af1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kalmar dop
+    second: {fileID: 2100000, guid: ec319e26fdd6df3489bde580c9bd6d97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lampa
+    second: {fileID: 2100000, guid: 4f3bf94ef65112541be9e1d15f303a4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light
+    second: {fileID: 2100000, guid: cdc82cfc55c525047a2cf253ca853e7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mainwall
+    second: {fileID: 2100000, guid: 8cb22a85951ceb14b8e5a61131b88d1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mebel
+    second: {fileID: 2100000, guid: 455b123b12eb6fd4992ec19461a4b1c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metall
+    second: {fileID: 2100000, guid: 1512073e434d43844bc3753938f0e854, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metallqizigan
+    second: {fileID: 2100000, guid: 2741d5d730106df408fd69bf3c3cb3f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pechka
+    second: {fileID: 2100000, guid: 0e40984e82de74346915561a2ab50a9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: qop
+    second: {fileID: 2100000, guid: 3b8b5cb4b3a10cb43b1ca99c49eaf6a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ramenBoard
+    second: {fileID: 2100000, guid: 62bafa1db24d57f44947c18faa5ace9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: 619885b56abbe734a8dc4fbe7e84590d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red.001
+    second: {fileID: 2100000, guid: 43dd43578ffccff4aac43aef7194b5f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof
+    second: {fileID: 2100000, guid: 0c7575cce767b5c45a0127012798c248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof2
+    second: {fileID: 2100000, guid: a87ab59ae8a221440b5789d929e0def0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spoons
+    second: {fileID: 2100000, guid: 845cef2cbefe0d14dac7c15a2a20bd57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: syshi
+    second: {fileID: 2100000, guid: 32240a25c1eaa304eb172ff3198a8f7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall
+    second: {fileID: 2100000, guid: 42ae9af2ccfddc24dbd5adee3bf2b4bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: water bottle
+    second: {fileID: 2100000, guid: 482e61b78564a474fb45b524a6e08860, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood1
+    second: {fileID: 2100000, guid: fda15c8e63f7e04419ec7e084efbbcfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood2
+    second: {fileID: 2100000, guid: 27e9c90f9f5cccb4fb5425c1489c61ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood3
+    second: {fileID: 2100000, guid: c4745f1842d56954796fd6c6f9255566, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DeliveryDiffuse
+    second: {fileID: 2800000, guid: db0f90a8df6b23a45af178b65865b4cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DeliveryNormal
+    second: {fileID: 2800000, guid: f8a907ddca52ae849a2dbdc93cfd5ae7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ground1Diffuse
+    second: {fileID: 2800000, guid: 371fc37ab7150e448876fa8421386f6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ground2Diffuse
+    second: {fileID: 2800000, guid: 749b8ca9cc781e048812a069dfb55aa0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ground2Normal
+    second: {fileID: 2800000, guid: 831357802322351428f150f4b0c5a562, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MainWallDiffuse
+    second: {fileID: 2800000, guid: 5bb5d12c711196d45aab1719ae31f6f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MainWallNormal
+    second: {fileID: 2800000, guid: e1ac13746f74efb4a89fdd5a6bc2039e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NameBoardDiffuse
+    second: {fileID: 2800000, guid: 37d6cda0529310e4c9fcb0ab0c2de8c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NameBoardNormal
+    second: {fileID: 2800000, guid: 5cd56669b77837f4dbd59c9f345ffdc9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NameBoardRoughness
+    second: {fileID: 2800000, guid: 3b65792691f160946ae5577ea3f41bc9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RamenBoardDiffuse
+    second: {fileID: 2800000, guid: 340cf91ae60b3ec4c980c8e98f2b9f7b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RamenBoardNormal
+    second: {fileID: 2800000, guid: c7cb1eb900dbe154993eccf4b2d11bd3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RedThingDiffuse
+    second: {fileID: 2800000, guid: bfc9e170f2e230242bd0113a40448aa9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roof2Normal
+    second: {fileID: 2800000, guid: d4c3fc34e3a48774e83e98d8847ec3f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roof2Roughness
+    second: {fileID: 2800000, guid: a3a280f45efb6174485f3996014be4fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RoofNormal
+    second: {fileID: 2800000, guid: 0d39ef8154670f1458a0e72cb3011f88, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RoofRoughness
+    second: {fileID: 2800000, guid: b9557162e2a700745820ade0e5304f71, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: StairsDiffuse
+    second: {fileID: 2800000, guid: 6d0c110eb1fe89d45946acc6e03b93b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: StairsRoughness
+    second: {fileID: 2800000, guid: 96bf65075dca85048be71b4dcf6e76db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: StoneWallDiffuse
+    second: {fileID: 2800000, guid: 6e7859e0616e92242bafeed45f328289, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: StoneWallNormal
+    second: {fileID: 2800000, guid: 3eb825c565c018246a2cac90da547777, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: StoneWallRoughness
+    second: {fileID: 2800000, guid: c8185d95c54b97c4385422832a937138, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood1Diffuse
+    second: {fileID: 2800000, guid: 8f26c786f05f517499823503b3ece034, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood1Normal
+    second: {fileID: 2800000, guid: 8ebef006dc5f258428a5bc612e4454e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood1Roughness
+    second: {fileID: 2800000, guid: 9f8fda37931c50b4c86ca5c2e78ed2ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood2Normal
+    second: {fileID: 2800000, guid: a555e3242d2c8a64eb6028040cbad608, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood3Normal
+    second: {fileID: 2800000, guid: ad8ceb3d05d02934484f01680f5c9b44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood3Roughness
+    second: {fileID: 2800000, guid: eae80aea29c57e64c9a22b7391fe5bee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood3diffuse
+    second: {fileID: 2800000, guid: d36b8693ab13412499f3a5ab770573dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Woood2Diffuse
+    second: {fileID: 2800000, guid: f8cc026f9b6938b40a9388bb214c9ccd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bayroq basecolor
+    second: {fileID: 2800000, guid: d73ba8dc2ec03174f9651b64125b43b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chairRoughness
+    second: {fileID: 2800000, guid: e144cf4591b1cd8479c30cf7764d2586, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chairdiffuse
+    second: {fileID: 2800000, guid: 9b42a7c244ee6b743a48f893a243c247, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chairnNormal
+    second: {fileID: 2800000, guid: e20d93cbd7297f24e9287617656f84c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: daska yozuv
+    second: {fileID: 2800000, guid: bb29f8ae9b2c18744aaaee2620bc7d25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: doskacha yozuv
+    second: {fileID: 2800000, guid: b6fbcab10e95f65468056521f1e94455, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stairsNormal
+    second: {fileID: 2800000, guid: 76bc1ecc9944e6f40b72551bbb0ef6cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sushi
+    second: {fileID: 2800000, guid: f7c9f75d8d00d8343a4711a0b7b18546, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

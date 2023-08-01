@@ -57,6 +57,15 @@ public class SakudoriCheck : MonoBehaviour
 
             tunaSakudoriComplete = true;
             nigiriStepManager.nigiriStep = 6;
+
+            slicedObjectDataList.Clear();
+
+            foreach (GameObject obj in objectsInsideTrigger)
+            {
+                SlicedObjectData data = new SlicedObjectData(obj);
+                slicedObjectDataList.Add(data);
+                Debug.Log("Added data for " + obj.name);
+            }
         }
     }
     
