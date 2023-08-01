@@ -4,6 +4,11 @@ using Autohand;
 public class UnParent : MonoBehaviour
 {
     public PlacePoint[] placePoint;
+
+    [SerializeField] private float massValue = 0.1f;
+    [SerializeField] private float dragValue = 0.0f;
+    [SerializeField] private float angularDragValue = 0.05f;
+    
     public void Unparent()
     {
         placePoint = GetComponentsInParent<PlacePoint>();
@@ -12,6 +17,7 @@ public class UnParent : MonoBehaviour
         {
             placePoint[1].Remove();
             gameObject.tag = "Nigiri";
+            
             gameObject.layer = 0;
             // Set the parent of the GameObject to null to unparent it.
             transform.parent = null;
@@ -26,11 +32,13 @@ public class UnParent : MonoBehaviour
             }
 
             // Set any desired properties for the Rigid Body component
-            rb.mass = 0.1f;
-            rb.drag = 0.0f;
-            rb.angularDrag = 0.05f;
+            rb.mass = massValue;
+            rb.drag = dragValue;
+            rb.angularDrag = angularDragValue;
             rb.useGravity = true;
             rb.isKinematic = false;
+            rb.interpolation = RigidbodyInterpolation.Interpolate;
+            rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
             // ... Add other properties as needed
         }
 
