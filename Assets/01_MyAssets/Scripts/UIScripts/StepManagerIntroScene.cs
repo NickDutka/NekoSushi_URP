@@ -8,6 +8,7 @@ using System;
 
 public class StepManagerIntroScene : MonoBehaviour
 {
+    public FadePlayer fadePlayer;
     [SerializeField] private TMP_Text dialogueText; // Reference to the TextMeshProUGUI component displaying the instructions
     [SerializeField] private StepInstructionsSO stepInstructionsSO; // Reference to the StepInstructionsSO scriptable object
     [SerializeField] private float fadeDuration = 0.5f; // Duration of the fade animation in seconds
@@ -16,9 +17,13 @@ public class StepManagerIntroScene : MonoBehaviour
     [SerializeField] private CanvasGroup canvasGroup; // Reference to the CanvasGroup component for fading animation
     [SerializeField] private GameObject nextButtonStage1; // Reference to the next button
     [SerializeField] private GameObject nextButtonStage2; // Reference to the next button
+    [SerializeField] private GameObject nextButtonStage3;
 
     [SerializeField] private PhysicsGadgetButton physicsGadgetButton;
     [SerializeField] private PhysicsGadgetButton physicsGadgetButton2;
+    [SerializeField] private PhysicsGadgetButton physicsGadgetButton3;
+
+
 
     [SerializeField] private bool continueDialogue = false;
     [SerializeField] private bool buttonIsActive = true;
@@ -34,8 +39,10 @@ public class StepManagerIntroScene : MonoBehaviour
 
     [SerializeField] private Animator buttonAnimator;
     [SerializeField] private Animator buttonAnimator2;
+    [SerializeField] private Animator buttonAnimator3;
     [SerializeField] private bool isButtonActive;
     [SerializeField] private bool isButtonActive2;
+    [SerializeField] private bool isButtonActive3;
 
     // Audio Events
     [SerializeField] private AudioSource nakiriWinAudio;
@@ -57,6 +64,12 @@ public class StepManagerIntroScene : MonoBehaviour
     {
         buttonAnimator2.SetBool("isButtonActive", state);
         isButtonActive2 = state;
+
+    }
+    private void SetButtonState3(bool state)
+    {
+        buttonAnimator3.SetBool("isButtonActive", state);
+        isButtonActive3 = state;
 
     }
     private void Start()
@@ -96,12 +109,29 @@ public class StepManagerIntroScene : MonoBehaviour
             //SetButtonState(false);
         }
 
+        // end the intro
+        if(currentStep == 6)
+        {
+            nextButtonStage3.SetActive(true);
+            SetButtonState3(true);
+
+        }
+
         if (continueDialogue == false && flashImagesCoroutine != null)
         {
             StopCoroutine(flashImagesCoroutine);
             physicsGadgetButton.enabled = false;
             physicsGadgetButton2.enabled = false;
+            physicsGadgetButton3.enabled = false;
         }
+    }
+
+    public void LoadNextScene()
+    {
+        // fade out and load next scene
+        fadePlayer.StartFadeToBlack();
+        Debug.Log("LoadNextScene");
+
     }
 
     private void UpdateDialogueText()
@@ -191,6 +221,7 @@ public class StepManagerIntroScene : MonoBehaviour
         {
             physicsGadgetButton.enabled = true;
             physicsGadgetButton2.enabled = true;
+            physicsGadgetButton3.enabled = true;
 
             for (int i = 0; i < nextArrowImages.Length; i++)
             {
