@@ -14,8 +14,11 @@ public class KumaDialogue : MonoBehaviour
 
     public int currentStep = 0; // Variable to track the current step index
     [SerializeField] private CanvasGroup canvasGroup; // Reference to the CanvasGroup component for fading animation
-    [SerializeField] private GameObject nextButtonStage1; // Reference to the next button
+    public GameObject nextButtonStage1; // Reference to the next button
+    public GameObject nextButtonStage2; // Reference to the next button
+
     [SerializeField] private PhysicsGadgetButton physicsGadgetButton;
+    [SerializeField] private PhysicsGadgetButton physicsGadgetButton2;
 
     [SerializeField] private bool continueDialogue = false;
     [SerializeField] private bool buttonIsActive = true;
@@ -30,19 +33,27 @@ public class KumaDialogue : MonoBehaviour
     [SerializeField] private Coroutine flashImagesCoroutine;
 
     [SerializeField] private Animator buttonAnimator;
+    [SerializeField] private Animator buttonAnimator2;
     [SerializeField] private bool isButtonActive;
+    [SerializeField] private bool isButtonActive2;
 
     [SerializeField] private AudioSource kumaAudio;
     [SerializeField] private AudioClip angry;
-    [SerializeField] private AudioClip talking;
+    [SerializeField] private AudioClip[] talking;
     [SerializeField] private AudioClip happy;
     [SerializeField] private AudioClip pointTalking;
 
 
-    private void SetButtonState(bool state)
+    public void SetButtonState(bool state)
     {
         buttonAnimator.SetBool("isButtonActive", state);
         isButtonActive = state;
+
+    }
+    public void SetButtonState2(bool state)
+    {
+        buttonAnimator2.SetBool("isButtonActive", state);
+        isButtonActive2 = state;
 
     }
     // Start is called before the first frame update
@@ -63,6 +74,7 @@ public class KumaDialogue : MonoBehaviour
         {
             StopCoroutine(flashImagesCoroutine);
             physicsGadgetButton.enabled = false;
+            physicsGadgetButton2.enabled = false;
 
         }
     }
@@ -91,7 +103,8 @@ public class KumaDialogue : MonoBehaviour
         if (currentStep < stepInstructionsSO.Instructions.Length - 1)
         {
             currentStep++; // Increment the current step index if there are more steps available
-            kumaAudio.PlayOneShot(talking);
+            int randomIndex = UnityEngine.Random.Range(0, talking.Length); // Generate a random index within the range of the array length
+            kumaAudio.PlayOneShot(talking[randomIndex]);
             UpdateDialogueText(); // Update the instruction text
             Debug.Log("MoveForward called. Current step: " + currentStep);
         }
@@ -106,6 +119,7 @@ public class KumaDialogue : MonoBehaviour
         if (continueDialogue == true)
         {
             physicsGadgetButton.enabled = true;;
+            physicsGadgetButton2.enabled = true;
 
             for (int i = 0; i < nextArrowImages.Length; i++)
             {
@@ -117,10 +131,11 @@ public class KumaDialogue : MonoBehaviour
         }
 
     }
-    private IEnumerator ButtonDisableDelay()
+    public IEnumerator ButtonDisableDelay()
     {
         yield return new WaitForSeconds(3f);
         nextButtonStage1.SetActive(false);
+        nextButtonStage2.SetActive(false);
     }
 
     private System.Collections.IEnumerator FadeOut(System.Action onComplete)
