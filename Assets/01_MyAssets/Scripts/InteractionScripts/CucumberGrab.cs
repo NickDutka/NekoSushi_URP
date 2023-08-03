@@ -6,6 +6,7 @@ public class CucumberGrab : MonoBehaviour
 {
     public StepManagerIntroScene stepManagerIntroScene;
 
+    public AudioSource cucumberAudio;
     public void InitializeCucumber()
     {
         if (stepManagerIntroScene != null)
@@ -13,7 +14,18 @@ public class CucumberGrab : MonoBehaviour
             if (stepManagerIntroScene.currentStep == 5)
             {
                 stepManagerIntroScene.MoveForward();
+
+                PlaySound();
+
             }
+        }
+    }
+
+    public void PlaySound()
+    {
+        if (cucumberAudio != null)
+        {
+            cucumberAudio.Play(); // Play the sound
         }
     }
 }

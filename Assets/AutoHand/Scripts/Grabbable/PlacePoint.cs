@@ -105,6 +105,7 @@ namespace Autohand {
         public PlacePointEvent OnHighlightEvent;
         public PlacePointEvent OnStopHighlightEvent;
 
+
         public Grabbable highlightingObj { get; protected set; } = null;
         public Grabbable placedObject { get; protected set; } = null;
         public Grabbable lastPlacedObject { get; protected set; } = null;

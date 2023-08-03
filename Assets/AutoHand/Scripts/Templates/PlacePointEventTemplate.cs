@@ -3,7 +3,13 @@ using Autohand;
 
 public class PlacePointEventTemplate : MonoBehaviour {
     public PlacePoint placePoint;
+    public UnParent unParent;
 
+    private void Awake()
+    {
+        placePoint = GetComponent<PlacePoint>();
+        unParent = GetComponent<UnParent>();
+    }
     void OnEnable() {
         placePoint.OnPlaceEvent += OnPlace;
         placePoint.OnRemoveEvent += OnPlace;
@@ -20,8 +26,11 @@ public class PlacePointEventTemplate : MonoBehaviour {
     }
 
 
-    public void OnPlace(PlacePoint point, Grabbable grab) {
+    public void OnPlace(PlacePoint point, Grabbable grab)
+    {
         //Stuff happens when placed
+        unParent.Unparent();
+        Debug.Log("Event Templtate Placed");
     }
 
 
