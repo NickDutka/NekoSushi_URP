@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487532ece56af9c40a4e49f08d0030b3, type: 3}
+  m_Name: KumaDialogueIntro
+  m_EditorClassIdentifier: 
+  instructions:
+  - 'Hey!!! You finally made it!
+
+    And on such short notice!
+
+    I was beginning
+    to worry you might not show up...'
+  - I'm sure you already heard, but our last chef was unfortunately let go...
+  - You see, our restauarant is one of the region lords favourite establishments
+    and he has a very discerning palate!
+  - Anyways, we don't have much time... Konro is already waiting for you in the kitchen!
+    Let's head there now!
+  - As you can see, the situation is stressing Konro out... I would try no to make
+    him mad if I were you!
+  - As you can see, the situation is stressing Konro out... I would try no to make
+    him mad if I were you!
+  - NA
+  instructionImages: []
