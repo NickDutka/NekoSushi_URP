@@ -6,9 +6,13 @@ public class FormingNigiriStepManager : MonoBehaviour
 {
     public FormingNigiriDialogueManager formingNigiriDialogueManager;
     public int formingStep;
+    public KonroPath konroPath;
+    public FadePlayer fadePlayer;
 
     // step flags
     public bool nigiriIncstructionVideoStarted;
+    public bool nigiriComplete;
+    public bool endSequence;
 
     //Video UI
     public GameObject nigiriIncstructionVideo;
@@ -34,7 +38,29 @@ public class FormingNigiriStepManager : MonoBehaviour
 
             nigiriIncstructionVideoStarted = true;
             StartNigiriInstructionvideo();
+
+            konroPath.FollowInitialPath();
             
+        }
+
+        // end sequence
+        if (formingStep == 4 && nigiriComplete == false)
+        {
+            nigiriComplete = true;
+            Debug.Log("All slice objects are inside the trigger.");
+            nigiriIncstructionVideo.SetActive(false);
+            hintPanel.SetActive(false);
+            //KonroUI.SetActive(true);
+            konroPath.FollowReversePath();
+            
+            formingNigiriDialogueManager.nextButtonStage2.SetActive(true);
+            formingNigiriDialogueManager.SetButtonState2(true);
+        }
+
+        if (formingStep == 5 && endSequence == false)
+        {
+            fadePlayer.StartFadeToBlack();
+            // Load next scene
         }
     }
 
@@ -42,8 +68,14 @@ public class FormingNigiriStepManager : MonoBehaviour
     {
         Debug.Log("nigiri video started");
 
-        KonroUI.SetActive(false);
+        //KonroUI.SetActive(false);
         nigiriIncstructionVideo.SetActive(true);
         hintPanel.SetActive(true);  
     }
+
+    public void LoadNextScene()
+    {
+        // Load next scene
+    }
+
 }

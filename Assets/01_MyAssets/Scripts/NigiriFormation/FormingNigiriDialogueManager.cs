@@ -16,7 +16,7 @@ public class FormingNigiriDialogueManager : MonoBehaviour
     public int currentStep = 0; // Variable to track the current step index
     [SerializeField] private CanvasGroup canvasGroup; // Reference to the CanvasGroup component for fading animation
     [SerializeField] private GameObject nextButtonStage1; // Reference to the next button
-    [SerializeField] private GameObject nextButtonStage2; // Reference to the next button
+    public GameObject nextButtonStage2; // Reference to the next button
 
     [SerializeField] private PhysicsGadgetButton physicsGadgetButton;
     [SerializeField] private PhysicsGadgetButton physicsGadgetButton2;

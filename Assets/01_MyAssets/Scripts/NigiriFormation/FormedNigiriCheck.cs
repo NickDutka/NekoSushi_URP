@@ -8,12 +8,15 @@ public class FormedNigiriCheck : MonoBehaviour
     public string checkTag = "Nigiri";
 
     public AudioClip triggerSound;
+    public AudioClip winSound;
 
     private List<GameObject> objectsInsideTrigger = new List<GameObject>();
     public AudioSource completeSoundAudioSource;
 
     public ParticleSystem nigiriCompleteParticles;
+    public ParticleSystem nigiriPlaceParticles;
     public FormingNigiriStepManager formingNigiriStepManager;
+    public FormingNigiriDialogueManager formingNigiriDialogueManager;
 
     public bool nigiriComplete;
     // Start is called before the first frame update
@@ -23,17 +26,19 @@ public class FormedNigiriCheck : MonoBehaviour
         if (other.CompareTag(checkTag))
         {
             objectsInsideTrigger.Add(other.gameObject);
+            PlayTriggerSound();
+            nigiriPlaceParticles.Play();
         }
 
         // Check specific objects are now inside the trigger
-        if (objectsInsideTrigger.Count == 8 && nigiriComplete == false)
+        if (objectsInsideTrigger.Count == 1 && nigiriComplete == false)
         {
             Debug.Log("All slice objects are inside the trigger.");
-            PlayTriggerSound();
+            PlayWinSound();
             nigiriCompleteParticles.Play();
             nigiriComplete = true;
 
-            formingNigiriStepManager.formingStep = 4;
+            formingNigiriDialogueManager.MoveForward();
         }
 
     }
@@ -52,6 +57,13 @@ public class FormedNigiriCheck : MonoBehaviour
         if (completeSoundAudioSource != null && triggerSound != null)
         {
             completeSoundAudioSource.PlayOneShot(triggerSound);
+        }
+    }
+    private void PlayWinSound()
+    {
+        if (completeSoundAudioSource != null && winSound != null)
+        {
+            completeSoundAudioSource.PlayOneShot(winSound);
         }
     }
 }
