@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.33859283, g: 0.6349774, b: 0.6390305, a: 1}
+  m_IndirectSpecularColor: {r: 0.338593, g: 0.6349774, b: 0.6390306, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -238,6 +238,144 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
+--- !u!1001 &774756313
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6716933543107358037, guid: 8a334e7c388e77347a1dddd727ef3446,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716933543107358037, guid: 8a334e7c388e77347a1dddd727ef3446,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5303091
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716933543107358037, guid: 8a334e7c388e77347a1dddd727ef3446,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.645
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716933543107358037, guid: 8a334e7c388e77347a1dddd727ef3446,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.385627
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716933543107358037, guid: 8a334e7c388e77347a1dddd727ef3446,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716933543107358037, guid: 8a334e7c388e77347a1dddd727ef3446,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716933543107358037, guid: 8a334e7c388e77347a1dddd727ef3446,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716933543107358037, guid: 8a334e7c388e77347a1dddd727ef3446,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716933543107358037, guid: 8a334e7c388e77347a1dddd727ef3446,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716933543107358037, guid: 8a334e7c388e77347a1dddd727ef3446,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716933543107358037, guid: 8a334e7c388e77347a1dddd727ef3446,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716933543107358056, guid: 8a334e7c388e77347a1dddd727ef3446,
+        type: 3}
+      propertyPath: m_Name
+      value: Smoke
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a334e7c388e77347a1dddd727ef3446, type: 3}
+--- !u!1001 &2037819834
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 56852242586695114, guid: 4d7e19c9fcb52be4bb9a8ba855ffe12d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 56852242586695114, guid: 4d7e19c9fcb52be4bb9a8ba855ffe12d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.6849604
+      objectReference: {fileID: 0}
+    - target: {fileID: 56852242586695114, guid: 4d7e19c9fcb52be4bb9a8ba855ffe12d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4257948
+      objectReference: {fileID: 0}
+    - target: {fileID: 56852242586695114, guid: 4d7e19c9fcb52be4bb9a8ba855ffe12d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.6491857
+      objectReference: {fileID: 0}
+    - target: {fileID: 56852242586695114, guid: 4d7e19c9fcb52be4bb9a8ba855ffe12d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 56852242586695114, guid: 4d7e19c9fcb52be4bb9a8ba855ffe12d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 56852242586695114, guid: 4d7e19c9fcb52be4bb9a8ba855ffe12d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 56852242586695114, guid: 4d7e19c9fcb52be4bb9a8ba855ffe12d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 56852242586695114, guid: 4d7e19c9fcb52be4bb9a8ba855ffe12d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 56852242586695114, guid: 4d7e19c9fcb52be4bb9a8ba855ffe12d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 56852242586695114, guid: 4d7e19c9fcb52be4bb9a8ba855ffe12d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 56852242586695119, guid: 4d7e19c9fcb52be4bb9a8ba855ffe12d,
+        type: 3}
+      propertyPath: m_Name
+      value: Fire
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4d7e19c9fcb52be4bb9a8ba855ffe12d, type: 3}
 --- !u!1001 &7470839913974308601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -248,7 +386,7 @@ PrefabInstance:
     - target: {fileID: 1401168168317696288, guid: aa86b484c1ada3045bfcab5dbca46f21,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1401168168317696288, guid: aa86b484c1ada3045bfcab5dbca46f21,
         type: 3}

@@ -3700,9 +3700,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 215254557948633460}
+  - component: {fileID: 181098049}
   m_Layer: 0
   m_Name: Tip
-  m_TagString: Untagged
+  m_TagString: Finger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3722,6 +3723,19 @@ Transform:
   m_Father: {fileID: 4443359384180767488}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &181098049
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2756202736240333267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.01
+  m_Center: {x: -0.005, y: 0, z: 0}
 --- !u!1 &2773954206204699270
 GameObject:
   m_ObjectHideFlags: 0
@@ -4973,7 +4987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ignoreMe: 0
-  headCamera: {fileID: 0}
+  headCamera: {fileID: 6132680027575755713}
   forwardFollow: {fileID: 6595474211738421619}
   trackingContainer: {fileID: 3468361792286606113}
   handRight: {fileID: 4339161863401301963}
