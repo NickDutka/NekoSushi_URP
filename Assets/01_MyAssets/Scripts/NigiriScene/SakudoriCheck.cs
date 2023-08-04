@@ -178,6 +178,7 @@ public class SakudoriCheck : MonoBehaviour
                 newObject.AddComponent<OnDestroyEvent>();
             }
 
+            Debug.Log("Stored object Spawned.");    
             //newObject.layer = LayerMask.NameToLayer(data.layerName);
             // Add any other necessary setup here.
             // ...

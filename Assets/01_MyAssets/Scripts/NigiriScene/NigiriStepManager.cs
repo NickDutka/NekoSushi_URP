@@ -5,8 +5,10 @@ using UnityEngine.UIElements;
 
 public class NigiriStepManager : MonoBehaviour
 {
+    public MySceneLoader sceneLoader;
     public StepManagerNigiriScene stepManagerNigiriScene;
     public SakudoriCheck sakudoriCheck;
+    public FadePlayer fadePlayer;
     public int nigiriStep;
 
     // Step flags
@@ -105,8 +107,15 @@ public class NigiriStepManager : MonoBehaviour
             tunaNigiriInstructionComplete = true;
             FinishedTunaSlicingInstruction();
             stepManagerNigiriScene.MoveForward();
+            LoadNextScene();
         }
 
+    }
+    public void LoadNextScene()
+    {
+        fadePlayer.Invoke("StartFadeToBlack", 5f);
+        sceneLoader.Invoke("LoadNextScene", 10f);
+        //Load next scene
     }
     public void StartSalmonSakudoriInstruction()
     {

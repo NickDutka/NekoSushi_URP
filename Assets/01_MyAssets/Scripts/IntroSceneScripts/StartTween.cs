@@ -6,6 +6,7 @@ using Oculus.Interaction;
 
 public class StartTween : MonoBehaviour
 {
+    public MySceneLoader sceneLoader;
     public KumaDialogue kumaDialogue;
     public GameObject kumaUISetup;
     public GameObject PlayerGO;
@@ -64,6 +65,8 @@ public class StartTween : MonoBehaviour
             kumaDialogue.SetButtonState2(false);
             Invoke("ButtonDisable", 3f);
             fadePlayer.StartFadeToBlack();
+
+            sceneLoader.Invoke("LoadNextScene", 5f);
 
             //Load Next Scene
         }

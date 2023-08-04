@@ -15224,6 +15224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 521693618}
+  offset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1001 &1647852333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24427,6 +24428,7 @@ GameObject:
   - component: {fileID: 4640944233736422035}
   - component: {fileID: 4640944233736422038}
   - component: {fileID: 4640944233736422039}
+  - component: {fileID: 4640944233736422040}
   m_Layer: 0
   m_Name: Panda
   m_TagString: Untagged
@@ -30629,6 +30631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a32f36a4f0067847bf6269d78213a81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneLoader: {fileID: 4640944233736422040}
   kumaDialogue: {fileID: 1945388979}
   kumaUISetup: {fileID: 1629226620}
   PlayerGO: {fileID: 1111740960}
@@ -30741,6 +30744,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4640944233736422040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147106829137363537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3263ffe60e666458f3a43f425d198f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &4654629830459806544
 Transform:
   m_ObjectHideFlags: 0

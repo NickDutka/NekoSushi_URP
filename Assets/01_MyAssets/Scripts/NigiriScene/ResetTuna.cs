@@ -19,7 +19,7 @@ public class ResetTuna : MonoBehaviour
     // Call this function to delete the current prefab and spawn a new one at the specified transform
     public void DeleteAndSpawnNewTunaPrefab()
     {
-        if (nigiriStepManager.nigiriStep == 1)
+        if (nigiriStepManager.nigiriStep == 5)
         {
             // Destroy any objects with the "SlicedObject" tag
             GameObject[] slicedObjects = GameObject.FindGameObjectsWithTag("SlicedObject");
@@ -38,7 +38,7 @@ public class ResetTuna : MonoBehaviour
             currentSpawnedPrefab = Instantiate(prefabToSpawn, spawnTransform.position, spawnTransform.rotation);
         }
 
-        if (nigiriStepManager.nigiriStep == 6)
+        if (nigiriStepManager.nigiriStep == 7)
         {
             // Destroy any objects with the "SlicedObject" tag
             GameObject[] slicedObjects = GameObject.FindGameObjectsWithTag("SlicedObject");

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FormingNigiriStepManager : MonoBehaviour
 {
+    public MySceneLoader sceneLoader;   
     public FormingNigiriDialogueManager formingNigiriDialogueManager;
     public int formingStep;
     public KonroPath konroPath;
@@ -60,6 +61,7 @@ public class FormingNigiriStepManager : MonoBehaviour
         if (formingStep == 5 && endSequence == false)
         {
             fadePlayer.StartFadeToBlack();
+            sceneLoader.Invoke("LoadNextScene", 5f);
             // Load next scene
         }
     }

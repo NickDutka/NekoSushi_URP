@@ -8,6 +8,7 @@ using System;
 
 public class StepManagerIntroScene : MonoBehaviour
 {
+    public MySceneLoader sceneLoader;
     public FadePlayer fadePlayer;
     [SerializeField] private TMP_Text dialogueText; // Reference to the TextMeshProUGUI component displaying the instructions
     [SerializeField] private StepInstructionsSO stepInstructionsSO; // Reference to the StepInstructionsSO scriptable object
@@ -130,7 +131,7 @@ public class StepManagerIntroScene : MonoBehaviour
     {
         // fade out and load next scene
         fadePlayer.StartFadeToBlack();
-        Debug.Log("LoadNextScene");
+        sceneLoader.Invoke("LoadNextScene", 5f);
 
     }
 

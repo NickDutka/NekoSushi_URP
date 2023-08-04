@@ -4,6 +4,7 @@ public class RotateCanvasTowardsPlayer : MonoBehaviour
 {
     public Transform player; // Reference to the player or VR camera
     private Quaternion initialRotation;
+    public Quaternion offset; // The offset rotation you want to apply
 
     private void Start()
     {
@@ -20,6 +21,9 @@ public class RotateCanvasTowardsPlayer : MonoBehaviour
 
             // Calculate the rotation needed to face the player
             Quaternion targetRotation = Quaternion.LookRotation(-directionToPlayer);
+
+            // Apply the offset rotation to the target rotation
+            targetRotation *= offset;
 
             // Apply the rotation to the canvas
             transform.rotation = targetRotation * initialRotation;
