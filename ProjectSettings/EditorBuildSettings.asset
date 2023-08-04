@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/01_MyAssets/Scenes/01_MasterScenes/01_Dock_IntroScene.unity
+    path: Assets/01_MyAssets/Scenes/01_MasterScenes/01_Dock_IntroScene(Corrupt).unity
     guid: 808ce066c5592b64691f32bc05ae3052
   - enabled: 1
     path: Assets/01_MyAssets/Scenes/01_MasterScenes/02_Restaurant_IntroScene.unity
@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01_MyAssets/Scenes/01_MasterScenes/04_NigiriScene(Form).unity
     guid: 88ba373674a724d409b8af29df7596a5
+  - enabled: 1
+    path: Assets/01_MyAssets/Scenes/01_MasterScenes/05_NigiriScene(Neko).unity
+    guid: ce061941c4a13fd4eaf0e8f2e2db78f9
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3b580bfc67602da49b3ea7349d412154,
       type: 2}
