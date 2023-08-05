@@ -949,7 +949,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &307480574
 PrefabInstance:
@@ -2399,11 +2399,6 @@ PrefabInstance:
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2444766238523685927}
-    - target: {fileID: 5991949003372892273, guid: 704fadaef621f374eab818f662d0f0dc,
-        type: 3}
-      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ReloadCurrentScene
-      objectReference: {fileID: 0}
     - target: {fileID: 5991949004136799128, guid: 704fadaef621f374eab818f662d0f0dc,
         type: 3}
       propertyPath: m_RootOrder
@@ -22941,7 +22936,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2256688075177644069
 Transform:
@@ -24330,6 +24325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed3263ffe60e666458f3a43f425d198f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadePlayer: {fileID: 0}
 --- !u!1 &2444766238615477780
 GameObject:
   m_ObjectHideFlags: 0

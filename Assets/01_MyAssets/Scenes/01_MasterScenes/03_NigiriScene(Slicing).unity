@@ -52579,7 +52579,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2261508708699479569
 MeshRenderer:
@@ -67604,6 +67604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed3263ffe60e666458f3a43f425d198f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadePlayer: {fileID: 0}
 --- !u!114 &5002101382683211504
 MonoBehaviour:
   m_ObjectHideFlags: 0

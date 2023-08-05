@@ -3,6 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class MySceneLoader : MonoBehaviour
 {
+
+    public FadePlayer fadePlayer;
+
     public void LoadNextScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -11,7 +14,9 @@ public class MySceneLoader : MonoBehaviour
     }
     public void LoadFirstScene()
     {
-        SceneManager.LoadScene(0);
+        fadePlayer.StartFadeToBlack();
+
+        Invoke("LoadNextScene", 5f);
     }
 
     public void ReloadCurrentScene()

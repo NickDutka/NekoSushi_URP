@@ -1559,10 +1559,10 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 1, b: 1, a: 1}
-        key1: {r: 0.9811321, g: 0.88839096, b: 0.64328945, a: 0.8117647}
-        key2: {r: 1, g: 0.8144701, b: 0, a: 1}
-        key3: {r: 0.9811321, g: 0.78185046, b: 0.30081883, a: 0}
+        key0: {r: 1, g: 0.7287828, b: 0, a: 1}
+        key1: {r: 1, g: 0.43189976, b: 0, a: 1}
+        key2: {r: 0.76862746, g: 0.14714824, b: 0, a: 1}
+        key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
@@ -6309,11 +6309,8 @@ GameObject:
   - component: {fileID: 5991949004136799128}
   - component: {fileID: 5991949004136799126}
   - component: {fileID: 7358051404053226685}
-  - component: {fileID: 5991949004136799129}
-  - component: {fileID: 5991949004136799110}
   - component: {fileID: 1175393351981058290}
   - component: {fileID: 1175393351981058822}
-  - component: {fileID: 1175393351981058828}
   m_Layer: 0
   m_Name: UI_Button_SceneReset
   m_TagString: Untagged
@@ -6472,38 +6469,6 @@ MonoBehaviour:
     - {x: 0.03342573, y: 0.016045682, z: -0.24521224, w: 0.9687602}
     - {x: 0, y: 0, z: 0, w: 1}
   leftPoseSet: 1
---- !u!95 &5991949004136799129
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5991949004136799131}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f927d79da15a05246bb59dde34554fc9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
---- !u!114 &5991949004136799110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5991949004136799131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 811bdc6cf74d6334c9a0e9b1fda95b69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &1175393351981058290
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6613,19 +6578,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonAudioSource: {fileID: 1175393351981058290}
---- !u!114 &1175393351981058828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5991949004136799131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4f9c29a39f6adb44af966e6d6473f24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scriptToEnable: {fileID: 5991949003372892273}
 --- !u!1 &5991949004174755893
 GameObject:
   m_ObjectHideFlags: 0
