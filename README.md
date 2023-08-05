@@ -1,3 +1,3 @@
 # NekoSushi_URP
 
-All viewable scenes are located in "Assets" / "01_MyAssets" / "Scenes"
+Stylized VR experience about learning traditional Japanese tools and techniques for sushi making with a light-hearted story.
