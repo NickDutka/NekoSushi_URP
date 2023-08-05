@@ -30,6 +30,11 @@ public class KonroAnimationControllerFormingScene : MonoBehaviour
 
     private void Update()
     {
+        if(formingNigiriStepManager == null)
+        {
+            return;
+        }
+
         // Check if it's not angry and time to trigger a blink
         if (!isAngry && !isBlinking && Time.time >= nextBlinkTime)
         {

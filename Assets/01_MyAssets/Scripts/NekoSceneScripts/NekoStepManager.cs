@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class NekoStepManager : MonoBehaviour
 {
-
+    public FadePlayer fadePlayer;
     public MySceneLoader sceneLoader;
     public NekoDialogueManager nekoDialogueManager;
     public int nekoStep;
@@ -16,6 +16,12 @@ public class NekoStepManager : MonoBehaviour
     public bool isShipMoving;
     public bool isNekoMoving;
     public bool isNekoDialogueStarted;
+    public bool isNekoEating;
+    public bool isFinishedEating;
+    public bool isGameOver;
+
+    //neko animations
+    public NekoAnimationController nekoAnimator;
 
     
     // Start is called before the first frame update
@@ -32,5 +38,48 @@ public class NekoStepManager : MonoBehaviour
             isShipMoving = true;
             shipPath.DOPlay();
         }
+
+        if(nekoStep == 2 && isNekoDialogueStarted == false)
+        {
+            //.... So, you're the new "Chef", eh!
+            isNekoDialogueStarted = true;
+            nekoDialogueManager.nameText.text = "Neko";
+            
+
+            //set the dialogue box to the neko's position and parent it to the neko
+            nekoDialogueManager.mainUICanvas.transform.position = 
+                nekoDialogueManager.nekoUIAnchor.transform.position;
+            nekoDialogueManager.mainUICanvas.transform.rotation =
+                nekoDialogueManager.nekoUIAnchor.transform.rotation;
+            nekoDialogueManager.mainUICanvas.transform.parent =
+                nekoDialogueManager.nekoUIAnchor.transform;
+
+        }
+
+        if(nekoStep == 5 && isNekoEating == false)
+        {
+            isNekoEating = true;
+            // play the eating animation
+            nekoAnimator.SetEatingState(true);    
+        }
+        if(nekoStep == 8 && isFinishedEating == false)
+        {
+
+            isFinishedEating = true;
+            nekoAnimator.SetEatingState(false);
+            nekoAnimator.SetHappyState(true);
+            
+        }
+        if(nekoStep == 10 && isGameOver == false)
+        {
+            isGameOver = true;
+
+            fadePlayer.Invoke("StartFadeToBlack", 5f);
+
+            sceneLoader.Invoke("LoadFirstScene", 10f);
+        }
+        
+
     }
+
 }

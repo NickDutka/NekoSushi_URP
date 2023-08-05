@@ -25,6 +25,7 @@ public class StartTween : MonoBehaviour
     public bool isWalkingAway = false;
 
     public bool isEnding = false;
+    private bool hasLoadedNextScene = false;
     private DOTweenPath dotweenPath;
     private bool isRotating = false; // Add a flag to indicate rotation
     private Quaternion targetRotation = Quaternion.identity;
@@ -58,7 +59,7 @@ public class StartTween : MonoBehaviour
         {
             SetYesState(false);
         }
-        if(kumaDialogue.currentStep == 7 && isEnding == false)
+        if (kumaDialogue.currentStep == 7 && isEnding == false)
         {
             isEnding = true;
             SetNoState(true);
@@ -66,12 +67,14 @@ public class StartTween : MonoBehaviour
             Invoke("ButtonDisable", 3f);
             fadePlayer.StartFadeToBlack();
 
-            sceneLoader.Invoke("LoadNextScene", 5f);
-
-            //Load Next Scene
+            if (!hasLoadedNextScene)
+            {
+                hasLoadedNextScene = true;
+                StartCoroutine(LoadNextSceneWithDelay(5f));
+            }
         }
         //Kuma is done talking and heads up the hill
-        if(kumaDialogue.currentStep == 4)
+        if (kumaDialogue.currentStep == 4)
         {
             //Kuma is done talking and heads up the hill
             if (kumaDialogue.currentStep == 4 && !isWalkingAway)
@@ -95,6 +98,12 @@ public class StartTween : MonoBehaviour
             }
         }
     }
+    private IEnumerator LoadNextSceneWithDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        sceneLoader.LoadNextScene();
+    }
+
 
     public void PathComplete()
     {

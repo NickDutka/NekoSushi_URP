@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/01_MyAssets/Scenes/01_MasterScenes/01_Dock_IntroScene(Corrupt).unity
+    path: Assets/01_MyAssets/Scenes/01_MasterScenes/01_Dock_IntroScene.unity
     guid: 808ce066c5592b64691f32bc05ae3052
   - enabled: 1
     path: Assets/01_MyAssets/Scenes/01_MasterScenes/02_Restaurant_IntroScene.unity

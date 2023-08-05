@@ -1917,6 +1917,18 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &632091642 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 262955087615432053, guid: 09c2a85162217df4591ffb33705e5eb9,
+    type: 3}
+  m_PrefabInstance: {fileID: 807508343}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce528ddbf6463ba48920822de4bd029f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &637018338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2386,6 +2398,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 807508346}
+  - {fileID: 1661580789}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20143,6 +20156,52 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1647852333}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1661580788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1661580789}
+  - component: {fileID: 1661580790}
+  m_Layer: 0
+  m_Name: NekoUiAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1661580789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661580788}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.3500004, z: 2.079956}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 646570328}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1661580790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661580788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f5bddbb335b3aa45bae36966001d042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 446015282889257380}
+  offset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
 --- !u!1 &1662339055
 GameObject:
   m_ObjectHideFlags: 0
@@ -26015,6 +26074,7 @@ MonoBehaviour:
   nextButtonStage1: {fileID: 8793976623045125258}
   nextButtonStage2: {fileID: 5841339306352473420}
   mainUICanvas: {fileID: 1331061078978993442}
+  nekoUIAnchor: {fileID: 1661580788}
   nameText: {fileID: 6068790021425639397}
   physicsGadgetButton: {fileID: 8793976621341732704}
   physicsGadgetButton2: {fileID: 5841339304515878566}
@@ -26053,6 +26113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 217b7e315b165a6499ba90ae4f1b82fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadePlayer: {fileID: 3815502146780494555}
   sceneLoader: {fileID: 1944928590}
   nekoDialogueManager: {fileID: 1944928591}
   nekoStep: 0
@@ -26061,6 +26122,10 @@ MonoBehaviour:
   isShipMoving: 0
   isNekoMoving: 0
   isNekoDialogueStarted: 0
+  isNekoEating: 0
+  isFinishedEating: 0
+  isGameOver: 0
+  nekoAnimator: {fileID: 632091642}
 --- !u!1 &1950183658
 GameObject:
   m_ObjectHideFlags: 0
@@ -76033,8 +76098,8 @@ MonoBehaviour:
   StepForward:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: FormingNigiriDialogueManager, Assembly-CSharp
+      - m_Target: {fileID: 1944928591}
+        m_TargetAssemblyTypeName: NekoDialogueManager, Assembly-CSharp
         m_MethodName: MoveForward
         m_Mode: 1
         m_Arguments:
@@ -76048,8 +76113,8 @@ MonoBehaviour:
   StepBackward:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: FormingNigiriDialogueManager, Assembly-CSharp
+      - m_Target: {fileID: 1944928591}
+        m_TargetAssemblyTypeName: NekoDialogueManager, Assembly-CSharp
         m_MethodName: MoveBackward
         m_Mode: 1
         m_Arguments:
@@ -84665,7 +84730,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7896319760516304583}
   m_LocalRotation: {x: -0, y: -0.7224094, z: -0, w: 0.6914656}
-  m_LocalPosition: {x: 251.523, y: 7.98, z: 250.12807}
+  m_LocalPosition: {x: 251.607, y: 6.339, z: 250.182}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -87827,8 +87892,8 @@ MonoBehaviour:
   OnPressed:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: FormingNigiriDialogueManager, Assembly-CSharp
+      - m_Target: {fileID: 1944928591}
+        m_TargetAssemblyTypeName: NekoDialogueManager, Assembly-CSharp
         m_MethodName: MoveForward
         m_Mode: 1
         m_Arguments:

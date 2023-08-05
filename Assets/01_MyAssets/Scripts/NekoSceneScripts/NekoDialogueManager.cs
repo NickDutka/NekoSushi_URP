@@ -18,8 +18,9 @@ public class NekoDialogueManager : MonoBehaviour
     [SerializeField] private GameObject nextButtonStage1; // Reference to the next button
     public GameObject nextButtonStage2; // Reference to the next button
 
-    [SerializeField] private GameObject mainUICanvas;
-    [SerializeField] private TMP_Text nameText; // use to switch to neko's name
+    public GameObject mainUICanvas;
+    public GameObject nekoUIAnchor;
+    public TMP_Text nameText; // use to switch to neko's name
 
     [SerializeField] private PhysicsGadgetButton physicsGadgetButton;
     [SerializeField] private PhysicsGadgetButton physicsGadgetButton2;

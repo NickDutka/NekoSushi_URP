@@ -14,20 +14,10 @@ public class NekoAnimationController : MonoBehaviour
     private int blinkLayerIndex;
     private int baseLayerIndex;
 
-    [SerializeField] StepManagerIntroScene stepManager;
+
 
     private void Awake()
     {
-        if (stepManager != null)
-        {
-            // do something
-
-        }
-
-        else
-        {
-            Debug.LogWarning("stepManagerIntroScene is not assigned in the Inspector.");
-        }
 
         animator = GetComponent<Animator>();
 
@@ -74,22 +64,22 @@ public class NekoAnimationController : MonoBehaviour
 
     }
 
-    private void SetBlinkState(bool state)
+    public void SetBlinkState(bool state)
     {
         animator.SetBool("isBlinking", state);
         isBlinking = state;
     }
-    private void SetTalkingState(bool state)
+    public void SetTalkingState(bool state)
     {
         animator.SetBool("isTalking", state);
         isTalking = state;
     }
-    private void SetHappyState(bool state)
+    public void SetHappyState(bool state)
     {
         animator.SetBool("isHappy", state);
         isHappy = state;
     }
-    private void SetEatingState(bool state)
+    public void SetEatingState(bool state)
     {
         animator.SetBool("isEating", state);
         isEating = state;

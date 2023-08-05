@@ -12,5 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 487532ece56af9c40a4e49f08d0030b3, type: 3}
   m_Name: NekoDialogue
   m_EditorClassIdentifier: 
-  instructions: []
+  instructions:
+  - Look! I think I see his ship approaching!
+  - Okay here they come! I hope the sushi passes the test, for your sake!
+  - .... So, you're the new "Chef", eh!
+  - I'm counting on you to be better than the last one, for your sake!
+  - Let's see what you got!
+  - .....hmmm...
+  - ' ...MMMM...'
+  - ....EXQUISITE!
+  - This is the best sushi that has ever come outta this place! You're the real deal!
+  - Konro!!! They're a keeper! Do whatever it takes to keep them around!
+  - And you! I'll be seeing you again soon pal, so long!
   instructionImages: []
