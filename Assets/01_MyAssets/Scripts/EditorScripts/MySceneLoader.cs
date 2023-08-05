@@ -13,4 +13,13 @@ public class MySceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    public void ReloadCurrentScene()
+    {
+        // Get the current scene's index
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        // Reload the current scene using its index
+        SceneManager.LoadScene(currentSceneIndex);
+    }
 }
