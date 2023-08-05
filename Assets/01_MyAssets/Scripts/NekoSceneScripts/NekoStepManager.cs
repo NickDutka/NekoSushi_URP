@@ -12,6 +12,10 @@ public class NekoStepManager : MonoBehaviour
     public DOTweenPath nekoPath;
     public DOTweenPath shipPath;
 
+    public GameObject[] sushiPlatter;
+    public ParticleSystem fx1;
+    public ParticleSystem fx2;
+
     //Step flags
     public bool isShipMoving;
     public bool isNekoMoving;
@@ -68,6 +72,13 @@ public class NekoStepManager : MonoBehaviour
             isFinishedEating = true;
             nekoAnimator.SetEatingState(false);
             nekoAnimator.SetHappyState(true);
+            
+            fx1.Play();
+            fx2.Play();
+            foreach(GameObject sushi in sushiPlatter)
+            {
+                sushi.SetActive(false);
+            }
             
         }
         if(nekoStep == 10 && isGameOver == false)

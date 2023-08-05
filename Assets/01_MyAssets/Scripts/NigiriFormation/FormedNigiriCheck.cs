@@ -31,7 +31,7 @@ public class FormedNigiriCheck : MonoBehaviour
         }
 
         // Check specific objects are now inside the trigger
-        if (objectsInsideTrigger.Count == 1 && nigiriComplete == false)
+        if (objectsInsideTrigger.Count == 8 && nigiriComplete == false)
         {
             Debug.Log("All slice objects are inside the trigger.");
             PlayWinSound();
