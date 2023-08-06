@@ -35,10 +35,10 @@ The aim of this VR experience is to provide users with an engaging and entertain
 * **Custom Interactions**
 
 ## Process 
-
+//Add images and descriptions of how the project evolved over time
 
 ## Journey
-
+//Talk about your journey during development. The problems/adversities that happened, and how did you manage to solve/adapt to it
 
 
 ## Case Study Video 
@@ -55,7 +55,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
     - 
     
 ## Known Issues
-PC Builds do not support Quest 2 Hand Tracking
+Quest 2 Hand Tracking is unsupported for PC builds.
 
 ## Team / Roles
 Project Manager - Nick Dutka
