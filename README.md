@@ -42,7 +42,11 @@ The aim of this VR experience is to provide users with an engaging and entertain
 ![SushiNeko - Game Identity _ Mantra](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/920f6480-911b-4155-baaa-8c38158bbea2)
 ![SushiNeko - Design Pillars](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/0d9afcb3-7772-46ba-a557-2979fc349435)
 ![SushiNeko - Game Story _ Mechanics Summary](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/203bc107-7623-405c-adc8-028ad24fd31b)
-
+<div>
+    <img src="[image_url_1](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/920f6480-911b-4155-baaa-8c38158bbea2)" alt="Image 1" width="640" height="360">
+    <img src="[image_url_2](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/0d9afcb3-7772-46ba-a557-2979fc349435)" alt="Image 2" width="640" height="360">
+    <img src="[image_url_3](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/203bc107-7623-405c-adc8-028ad24fd31b)" alt="Image 3" width="640" height="360">
+</div>
     
   - **User Flows**
   
