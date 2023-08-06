@@ -76,15 +76,18 @@ The aim of this VR experience is to provide users with an engaging and entertain
   - The Refinened Slice
   - 
 * 🌄 Reflection
+
   - Lessons Learned
- 
-The development of this VR experience taught me valuable lessons about creating immersive hand-tracking interactions that feel natural and intuitive to users. I learned the importance of user testing and iteration to refine gameplay mechanics and ensure a seamless user experience. Additionally, working with Quest 2 hand tracking introduced me to new challenges and possibilities, encouraging me to explore innovative ways of integrating this technology into future projects
+
+The development of this VR experience taught me valuable lessons about creating immersive hand-tracking interactions that feel natural and intuitive to users. I learned the importance of user testing and iteration to refine gameplay mechanics and ensure a seamless user experience. Additionally, working with Quest 2 hand tracking introduced me to new challenges and possibilities, encouraging me to explore innovative ways of integrating this technology into future projects.
+
   - Successes + Achievements
 
 One of the most gratifying aspects of this VR project was witnessing users interact with the custom slicing mechanics. Observing their delight as they sliced fish for nigiri and formed sushi with their own hands validated the effort we put into creating engaging and enjoyable interactions. The positive user feedback and excitement for the light-hearted storyline confirmed that I successfully achieved my goal of making learning about Japanese sushi-making a fun and immersive experience.
+
   - Areas for Improvement
 
-The late start to the project impacted the development timeline, making it more challenging to incorporate certain features I initially planned. Better time management and planning would be crucial for future projects to avoid such delays
+The late start to the project impacted the development timeline, making it more challenging to incorporate certain features I initially planned. Better time management and planning would be crucial for future projects to avoid such delays.
 
 ## 📼 Case Study Video 
 > Example Video
