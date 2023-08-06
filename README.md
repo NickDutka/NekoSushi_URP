@@ -53,10 +53,12 @@ The aim of this VR experience is to provide users with an engaging and entertain
           
 * 
     - 
-          
-# optionals:
-
+    
 ## Known Issues
-
+PC Builds do not support Quest 2 Hand Tracking
 
 ## Team / Roles
+Project Manager - Nick Dutka
+Lead Programmer - Nick Dutka
+Level Designer - Nick Dutka
+3D Artist - Nick Dutka
