@@ -147,7 +147,6 @@ The aim of this VR experience is to provide users with an engaging and entertain
 * 🎨 **Design + Prototyping**
 
 * **Interaction Prototypes**
-![nigirigif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/3426aa56-ad13-41ec-974e-1a46e2c6c3f3)
 
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/5e9e6fcd-343d-4bdf-ae9d-817714405dbb)" alt="Image 4" width="320" height="180">
