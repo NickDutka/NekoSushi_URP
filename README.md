@@ -45,58 +45,50 @@ The aim of this VR experience is to provide users with an engaging and entertain
   <br>
   "Game Identity + Mantra"
 </div>
-
-
+<br> <!-- Add a line break here -->
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/0d9afcb3-7772-46ba-a557-2979fc349435)" alt="Image 2" width="320" height="180">
   <br>
   "Design Pillars"
 </div>
-
-
+<br> <!-- Add a line break here -->
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/203bc107-7623-405c-adc8-028ad24fd31b)" alt="Image 3" width="320" height="180">
   <br>
   "Game Story + Mechanics"
 </div>
-
-
+<br> <!-- Add a line break here -->
   - **User Flows**
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/7ec7f03b-0bc5-4f36-b905-f36ae4a68bb1" alt="Image 1" width="320" height="180">
   <br>
   "User Flow - High Level"
 </div>
-
-
+<br> <!-- Add a line break here -->
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/803a4e91-6e8d-4be2-b6d0-86bbd5a9b4ca)" alt="Image 2" width="320" height="180">
   <br>
   "User Flow - Intro Scene"
 </div>
-
-
+<br> <!-- Add a line break here -->
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/4251534d-7ecb-4f5b-b54b-d42724d75dfd)" alt="Image 3" width="320" height="180">
   <br>
   "User Flow - Exterior Intro Scene"
 </div>
-
-
+<br> <!-- Add a line break here -->
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/47ad65ac-83ca-4101-87c6-5415d3133afb)" alt="Image 4" width="320" height="180">
   <br>
   "User Flow - Interior Kitchen Scenes"
 </div>
-
-
+<br> <!-- Add a line break here -->
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/d4c7d228-642b-428c-ba67-38674d9b1e46)" alt="Image 5" width="320" height="180">
   <br>
   "User Flow - Final Scene"
 </div>
-
-
+<br> <!-- Add a line break here -->
   - **Planning**
   
 <div align="center">
