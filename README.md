@@ -98,26 +98,51 @@ The aim of this VR experience is to provide users with an engaging and entertain
   <br>
   "Project Timeline + Milestones"
 </div>
-
+<br> <!-- Add a line break here -->
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/05a83d43-c2a2-4d1a-9b99-f19eed76298d)" alt="Image 2" width="320" height="180">
   <br>
   "Capacity Planning"
 </div>
-
+<br> <!-- Add a line break here -->
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/18fa6407-fde2-4c91-8912-8bc8c32850db)" alt="Image 3" width="320" height="180">
   <br>
   "Risks + Mitigation Plan"
 </div>
-
+<br> <!-- Add a line break here -->
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/df748421-0e82-48c6-a361-db8cdd652091)" alt="Image 4" width="320" height="180">
   <br>
   "Risks + Mitigation Plan Continued"
 </div>
+<br> <!-- Add a line break here -->
 
 * **Concept Art**
+
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/e8d06b1a-7d39-466f-bb23-cc838021e954" alt="Image 1" width="320" height="180">
+  <br>
+  "Neko Concept"
+</div>
+<br> <!-- Add a line break here -->
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6be49eaf-96e7-42d0-a03b-6bb26cbff890)" alt="Image 2" width="320" height="180">
+  <br>
+  "Konro Concept"
+</div>
+<br> <!-- Add a line break here -->
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/9eefcdd8-7ac7-4f53-957d-c9a86691575c)" alt="Image 3" width="320" height="180">
+  <br>
+  "Storyboard"
+</div>
+<br> <!-- Add a line break here -->
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/e87e10b9-0fa0-4291-a2bb-95ea9258534e)" alt="Image 4" width="320" height="180">
+  <br>
+  "Knife Concept"
+</div>
 
 * 🎨 **Design + Prototyping**
   - **Interaction Prototypes**
