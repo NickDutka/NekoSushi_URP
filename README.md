@@ -10,11 +10,11 @@ A stylized VR experience that utilizes Quest 2 handtracking to learn about tradi
 ## 🎯 Project Aim + Goal
 The aim of this VR experience is to provide users with an engaging and entertaining way to learn about traditional Japanese tools and techniques for sushi-making while enjoying a light-hearted and humorous storyline. Utilizing Quest 2 hand tracking, users will interact with custom-designed hand tracking events and slicing mechanics, immersing themselves in a stylistic and visually pleasing environment. Through 3D assets and custom animations, users will go through five handcrafted "stages," participating in two sushi-making lessons that involve slicing fish for nigiri and forming and presenting nigiri. The project's pillars are centered around accurate hand-tracking interactions, a light-hearted tone, an educational experience about Japanese sushi-making, and captivating aesthetics.
 
-* ⛩️ Pillars
-  - Accurate hand-tracking interactions
-  - Light-hearted and humorous tone
-  - Learn about traditional Japanese tools and techniques for sushi 
-  - Stylistic/aesthetically pleasing visuals + environment
+* 🏯 Pillars
+  - ⛩️ Accurate hand-tracking interactions
+  - ⛩️ Light-hearted and humorous tone
+  - ⛩️ Learn about traditional Japanese tools and techniques for sushi 
+  - ⛩️ Stylistic/aesthetically pleasing visuals + environment
     
 ## 📝 Features
 * Interactions
