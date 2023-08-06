@@ -40,9 +40,9 @@ The aim of this VR experience is to provide users with an engaging and entertain
 * 💡 **Concept + Planning**
   - **Game Identity + Design Pillars + Story
 <div>
-    <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/920f6480-911b-4155-baaa-8c38158bbea2)" alt="Image 1" width="320" height="180">
-    <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/0d9afcb3-7772-46ba-a557-2979fc349435)" alt="Image 2" width="320" height="180">
-    <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/203bc107-7623-405c-adc8-028ad24fd31b)" alt="Image 3" width="320" height="180">
+    <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/920f6480-911b-4155-baaa-8c38158bbea2)" alt="Image 1" width="300" height="180">
+    <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/0d9afcb3-7772-46ba-a557-2979fc349435)" alt="Image 2" width="300" height="180">
+    <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/203bc107-7623-405c-adc8-028ad24fd31b)" alt="Image 3" width="300" height="180">
 </div>
   
   - **User Flows**
