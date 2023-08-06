@@ -68,7 +68,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 Quest 2 Hand Tracking is unsupported for PC builds.
 
 ## Team / Roles
-Project Manager - Nick Dutka
-Lead Programmer - Nick Dutka
-Level Designer - Nick Dutka
-3D Artist - Nick Dutka
+  - Project Manager - Nick Dutka
+  - Lead Programmer - Nick Dutka
+  - Level Designer - Nick Dutka
+  - 3D Artist - Nick Dutka
