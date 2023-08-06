@@ -58,6 +58,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
   "Game Story + Mechanics"
 </div>
 <br> <!-- Add a line break here -->
+
 * **User Flows**
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/7ec7f03b-0bc5-4f36-b905-f36ae4a68bb1" alt="Image 1" width="320" height="180">
@@ -89,6 +90,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
   "User Flow - Final Scene"
 </div>
 <br> <!-- Add a line break here -->
+
 * **Planning**
   
 <div align="center">
