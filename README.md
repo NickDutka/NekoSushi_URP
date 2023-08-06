@@ -39,7 +39,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 
 * 💡 **Concept + Planning**
 
-  - **Game Identity + Design Pillars + Story**
+* **Game Identity + Design Pillars + Story**
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/920f6480-911b-4155-baaa-8c38158bbea2" alt="Image 1" width="320" height="180">
   <br>
@@ -58,7 +58,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
   "Game Story + Mechanics"
 </div>
 <br> <!-- Add a line break here -->
-  - **User Flows**
+* **User Flows**
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/7ec7f03b-0bc5-4f36-b905-f36ae4a68bb1" alt="Image 1" width="320" height="180">
   <br>
@@ -89,7 +89,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
   "User Flow - Final Scene"
 </div>
 <br> <!-- Add a line break here -->
-  - **Planning**
+* **Planning**
   
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/ec8f5bd0-cfa3-4962-b97e-20260847a0cb" alt="Image 1" width="320" height="180">
@@ -115,7 +115,8 @@ The aim of this VR experience is to provide users with an engaging and entertain
   "Risks + Mitigation Plan Continued"
 </div>
 
-  - **Concept Art**
+* **Concept Art**
+
 * 🎨 **Design + Prototyping**
   - **Interaction Prototypes**
   - **3D Asset Creation**
