@@ -121,25 +121,25 @@ The aim of this VR experience is to provide users with an engaging and entertain
 * **Concept Art**
 
 <div align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/e8d06b1a-7d39-466f-bb23-cc838021e954" alt="Image 1" width="320" height="180">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/e8d06b1a-7d39-466f-bb23-cc838021e954" alt="Image 1" width="180" height="320">
   <br>
   "Neko Concept"
 </div>
 <br> <!-- Add a line break here -->
 <div align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6be49eaf-96e7-42d0-a03b-6bb26cbff890)" alt="Image 2" width="320" height="180">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6be49eaf-96e7-42d0-a03b-6bb26cbff890)" alt="Image 2" width="180" height="320">
   <br>
   "Konro Concept"
 </div>
 <br> <!-- Add a line break here -->
 <div align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/9eefcdd8-7ac7-4f53-957d-c9a86691575c)" alt="Image 3" width="320" height="180">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/9eefcdd8-7ac7-4f53-957d-c9a86691575c)" alt="Image 3" width="180" height="320">
   <br>
   "Storyboard"
 </div>
 <br> <!-- Add a line break here -->
 <div align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/e87e10b9-0fa0-4291-a2bb-95ea9258534e)" alt="Image 4" width="320" height="180">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/e87e10b9-0fa0-4291-a2bb-95ea9258534e)" alt="Image 4" width="180" height="320">
   <br>
   "Knife Concept"
 </div>
