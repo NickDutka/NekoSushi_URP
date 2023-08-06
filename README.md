@@ -10,7 +10,7 @@ A stylized VR experience that utilizes Quest 2 handtracking to learn about tradi
 ## 🎯 Project Aim + Goal
 The aim of this VR experience is to provide users with an engaging and entertaining way to learn about traditional Japanese tools and techniques for sushi-making while enjoying a light-hearted and humorous storyline. Utilizing Quest 2 hand tracking, users will interact with custom-designed hand tracking events and slicing mechanics, immersing themselves in a stylistic and visually pleasing environment. Through 3D assets and custom animations, users will go through five handcrafted "stages," participating in two sushi-making lessons that involve slicing fish for nigiri and forming and presenting nigiri. The project's pillars are centered around accurate hand-tracking interactions, a light-hearted tone, an educational experience about Japanese sushi-making, and captivating aesthetics.
 
-* __⛩️ Design Pillars__
+* **⛩️ Design Pillars**
   - 👋 Accurate hand-tracking interactions
   - 😅 Light-hearted and humorous tone
   - 🍣 Learn about traditional Japanese tools and techniques for sushi 
@@ -37,43 +37,43 @@ The aim of this VR experience is to provide users with an engaging and entertain
 
 ## 👩‍💻 Process 
 
-* 💡 Concept + Planning
+* 💡 **Concept + Planning**
   - **Concept Art**
   - **User Flows**
   - **Planning**
-* 🎨 Design + Prototyping
+* 🎨 **Design + Prototyping**
   - **Interaction Prototypes**
   - **3D Asset Creation**
   - **Environment + Level Design**
   - **UI Designs + Prototypes**
-* 👋 Hand Tracking Implementation
+* 👋 **Hand Tracking Implementation**
   - **Oculus Integration**
   - **AutoHand - VR Interaction Framework**
-* 🎮 Gameplay Development
+* 🎮 **Gameplay Development**
   - **Game Stages Recordings**
-* 🧪 Testing + Iteration
+* 🧪 **Testing + Iteration**
   - **Play tests**
   - **Refinements**
-* 💎 Finalization + Polish
+* 💎 **Finalization + Polish**
   - **Final Version**
   - **Optimizations**
 
 ## 🚀 Journey
 
-* 🧩 Early Challenges
+* 🧩 **Early Challenges**
   - **Pivoting Project Concept**
   - **Late Start**
-* 🔄 Adaptations + Solutions
+* 🔄 **Adaptations + Solutions**
   - **Shotgun Design Process**
   - **Modular Approach**
   - 
-* 🌟 Moments of Breakthrough
+* 🌟 **Moments of Breakthrough**
   - **Shaders | Setting the Tone**
   - **The First Slice**
   - **Character Creation**
   - **Animation**
   - **Level Design**
-* 🔍 Iterations + Improvements
+* 🔍 **Iterations + Improvements**
   - **The Refinened Slice**
   - 
 * 🌄 Reflection
