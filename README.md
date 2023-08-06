@@ -16,17 +16,17 @@ The aim of this VR experience is to provide users with an engaging and entertain
   - 🍣 Learn about traditional Japanese tools and techniques for sushi 
   - 🏔️ Stylistic + aesthetically pleasing visuals + environment
     
-## 📝 Features
+## 📝 **Features**
 * 🔮 Interactions
     - ✔️ Quest 2 hand tracking interactions
     - ✔️ Custom made hand tracking events 
     - ✔️ Custom slicing mechanics   
-* 🧱 3D Assets
+* 🧱 **3D Assets**
     - ✔️ Custom 3D models created in maya/blender         
     - ✔️ Handmade stylistic environments     
     - ✔️ Custom rigged and animated characters
     - ✔️ Custom UI Panels with embedded video instruction  
-* 🎮 Gameplay 
+* 🎮 **Gameplay** 
     - ✔️ Light-hearted + humorous storyline
     - ✔️ 5 handcrafted "stages"               
     - ✔️ 2 sushi making lessons - slicing fish for nigiri - forming + presenting nigiri
@@ -38,55 +38,55 @@ The aim of this VR experience is to provide users with an engaging and entertain
 ## 👩‍💻 Process 
 
 * 💡 Concept + Planning
-  - Concept Art
-  - User Flows
-  - Planning
+  - **Concept Art**
+  - **User Flows**
+  - **Planning**
 * 🎨 Design + Prototyping
-  - Interaction Prototypes
-  - 3D Asset Creation
-  - Environment + Level Design
-  - UI Designs + Prototypes
+  - **Interaction Prototypes**
+  - **3D Asset Creation**
+  - **Environment + Level Design**
+  - **UI Designs + Prototypes**
 * 👋 Hand Tracking Implementation
-  - Oculus Integration
-  - AutoHand - VR Interaction Framework
+  - **Oculus Integration**
+  - **AutoHand - VR Interaction Framework**
 * 🎮 Gameplay Development
-  - Game Stages Recordings
+  - **Game Stages Recordings**
 * 🧪 Testing + Iteration
-  - Play tests
-  - Refinements
+  - **Play tests**
+  - **Refinements**
 * 💎 Finalization + Polish
-  - Final Version
-  - Optimizations
+  - **Final Version**
+  - **Optimizations**
 
 ## 🚀 Journey
 
 * 🧩 Early Challenges
-  - Pivoting Project Concept
-  - Late Start
+  - **Pivoting Project Concept**
+  - **Late Start**
 * 🔄 Adaptations + Solutions
-  - Shotgun Design Process
-  - Modular Approach
+  - **Shotgun Design Process**
+  - **Modular Approach**
   - 
 * 🌟 Moments of Breakthrough
-  - Shaders | Setting the Tone
-  - The First Slice
-  - Character Creation
-  - Animation
-  - Level Design
+  - **Shaders | Setting the Tone**
+  - **The First Slice**
+  - **Character Creation**
+  - **Animation**
+  - **Level Design**
 * 🔍 Iterations + Improvements
-  - The Refinened Slice
+  - **The Refinened Slice**
   - 
 * 🌄 Reflection
 
-  - Lessons Learned
+  - **Lessons Learned**
 
 The development of this VR experience taught me valuable lessons about creating immersive hand-tracking interactions that feel natural and intuitive to users. I learned the importance of user testing and iteration to refine gameplay mechanics and ensure a seamless user experience. Additionally, working with Quest 2 hand tracking introduced me to new challenges and possibilities, encouraging me to explore innovative ways of integrating this technology into future projects.
 
-  - Successes + Achievements
+  - **Successes + Achievements**
 
 One of the most gratifying aspects of this VR project was witnessing users interact with the custom slicing mechanics. Observing their delight as they sliced fish for nigiri and formed sushi with their own hands validated the effort we put into creating engaging and enjoyable interactions. The positive user feedback and excitement for the light-hearted storyline confirmed that I successfully achieved my goal of making learning about Japanese sushi-making a fun and immersive experience.
 
-  - Areas for Improvement
+  - **Areas for Improvement**
 
 The late start to the project impacted the development timeline, making it more challenging to incorporate certain features I initially planned. Better time management and planning would be crucial for future projects to avoid such delays.
 
