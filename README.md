@@ -35,11 +35,21 @@ The aim of this VR experience is to provide users with an engaging and entertain
 * **Custom Interactions**
 
 ## Process 
-//Add images and descriptions of how the project evolved over time
+
+* Concept + Planning
+* Design + Prototyping
+* Hand Tracking Implementation
+* Gameplay Development
+* Testing + Iteration
+* Finalization + Polish
 
 ## Journey
-//Talk about your journey during development. The problems/adversities that happened, and how did you manage to solve/adapt to it
 
+* Early Challenges
+* Adaptations + Solutions
+* Moments of Breakthrough
+* Iteratios + Improvements
+* Reflection
 
 ## Case Study Video 
 > Example Video
