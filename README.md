@@ -28,8 +28,9 @@ The aim of this VR experience is to provide users with an engaging and entertain
 * Gameplay 
     - [x] Light-hearted + humorous storyline
     - [x] 5 handcrafted "stages"               
-    - [x] 2 sushi making lessons - slicing fish for nigiri - forming + presenting nigiri   
-
+    - [x] 2 sushi making lessons - slicing fish for nigiri - forming + presenting nigiri
+    - [x] Custom video lesson UI created with in-game video recordings
+    
 ## Controls
 * **Quest 2 Hand Tracking**
 * **Custom Interactions**
@@ -38,9 +39,16 @@ The aim of this VR experience is to provide users with an engaging and entertain
 
 * Concept + Planning
   - Concept Art
-  - 
+  - User Flows
+  - Planning
 * Design + Prototyping
+  - Interaction Prototypes
+  - 3D Asset Creation
+  - Environment + Level Design
+  - UI Designs / Prototypes
 * Hand Tracking Implementation
+  - Oculus Integration
+  - AutoHand - VR Interaction Framework
 * Gameplay Development
 * Testing + Iteration
 * Finalization + Polish
@@ -50,7 +58,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 * Early Challenges
 * Adaptations + Solutions
 * Moments of Breakthrough
-* Iteratios + Improvements
+* Iterations + Improvements
 * Reflection
 
 ## Case Study Video 
