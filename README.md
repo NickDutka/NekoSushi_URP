@@ -65,7 +65,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 </div>
 
 <div align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/assets/104876986/803a4e91-6e8d-4be2-b6d0-86bbd5a9b4ca)" alt="Image 2" width="320" height="180">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/803a4e91-6e8d-4be2-b6d0-86bbd5a9b4ca)" alt="Image 2" width="320" height="180">
   <br>
   "User Flow - Intro Scene"
 </div>
