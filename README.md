@@ -78,7 +78,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
   - 
 * 🌄 Reflection
 
-  * **Lessons Learned**
+* **Lessons Learned**
 
 The development of this VR experience taught me valuable lessons about creating immersive hand-tracking interactions that feel natural and intuitive to users. I learned the importance of user testing and iteration to refine gameplay mechanics and ensure a seamless user experience. Additionally, working with Quest 2 hand tracking introduced me to new challenges and possibilities, encouraging me to explore innovative ways of integrating this technology into future projects.
 
