@@ -1,7 +1,7 @@
 <h1 align="center">Neko Sushi</h1>
 
 <p align="center">
-  <img alt="Preview" width="660" alt="preview" src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/2e02486b-8733-45a8-aff2-d225d003c7ed">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/2e02486b-8733-45a8-aff2-d225d003c7ed">
 <p align="center">
 
 ## Summary
@@ -37,6 +37,8 @@ The aim of this VR experience is to provide users with an engaging and entertain
 ## Process 
 
 * Concept + Planning
+  - Concept Art
+  - 
 * Design + Prototyping
 * Hand Tracking Implementation
 * Gameplay Development
