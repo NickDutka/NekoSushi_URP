@@ -58,25 +58,36 @@ The aim of this VR experience is to provide users with an engaging and entertain
 </div>
 
   - **User Flows**
-<img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/7ec7f03b-0bc5-4f36-b905-f36ae4a68bb1.jpg" alt="Image 1" width="320" height="180">
-<br>
-"User Flow - High Level"
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/7ec7f03b-0bc5-4f36-b905-f36ae4a68bb1" alt="Image 1" width="320" height="180">
+  <br>
+  "User Flow - High Level"
+</div>
 
-<img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/803a4e91-6e8d-4be2-b6d0-86bbd5a9b4ca.jpg" alt="Image 2" width="320" height="180">
-<br>
-"User Flow - Intro Scene"
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/803a4e91-6e8d-4be2-b6d0-86bbd5a9b4ca)" alt="Image 2" width="320" height="180">
+  <br>
+  "User Flow - Intro Scene"
+</div>
 
-<img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/4251534d-7ecb-4f5b-b54b-d42724d75dfd.jpg" alt="Image 3" width="320" height="180">
-<br>
-"User Flow - Exterior Intro Scene"
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/4251534d-7ecb-4f5b-b54b-d42724d75dfd)" alt="Image 3" width="320" height="180">
+  <br>
+  "User Flow - Exterior Intro Scene"
+</div>
 
-<img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/47ad65ac-83ca-4101-87c6-5415d3133afb.jpg" alt="Image 4" width="320" height="180">
-<br>
-"User Flow - Interior Kitchen Scenes"
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/47ad65ac-83ca-4101-87c6-5415d3133afb)" alt="Image 4" width="320" height="180">
+  <br>
+  "User Flow - Interior Kitchen Scenes"
+</div>
 
-<img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/d4c7d228-642b-428c-ba67-38674d9b1e46.jpg" alt="Image 5" width="320" height="180">
-<br>
-"User Flow - Final Scene"
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/d4c7d228-642b-428c-ba67-38674d9b1e46)" alt="Image 5" width="320" height="180">
+  <br>
+  "User Flow - Final Scene"
+</div>
+
   - **Planning**
   - **Concept Art**
 * 🎨 **Design + Prototyping**
