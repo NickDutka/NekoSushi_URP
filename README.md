@@ -38,6 +38,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 ## 👩‍💻 Process 
 
 * 💡 **Concept + Planning**
+
   - **Game Identity + Design Pillars + Story**
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/920f6480-911b-4155-baaa-8c38158bbea2" alt="Image 1" width="320" height="180">
@@ -89,6 +90,31 @@ The aim of this VR experience is to provide users with an engaging and entertain
 </div>
 
   - **Planning**
+  
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/ec8f5bd0-cfa3-4962-b97e-20260847a0cb" alt="Image 1" width="320" height="180">
+  <br>
+  "Project Timeline + Milestones"
+</div>
+
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/05a83d43-c2a2-4d1a-9b99-f19eed76298d)" alt="Image 2" width="320" height="180">
+  <br>
+  "Capacity Planning"
+</div>
+
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/18fa6407-fde2-4c91-8912-8bc8c32850db)" alt="Image 3" width="320" height="180">
+  <br>
+  "Risks + Mitigation Plan"
+</div>
+
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/df748421-0e82-48c6-a361-db8cdd652091)" alt="Image 4" width="320" height="180">
+  <br>
+  "Risks + Mitigation Plan Continued"
+</div>
+
   - **Concept Art**
 * 🎨 **Design + Prototyping**
   - **Interaction Prototypes**
