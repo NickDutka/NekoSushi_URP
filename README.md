@@ -17,23 +17,22 @@ The aim of this VR experience is to provide users with an engaging and entertain
   - Stylistic/aesthetically pleasing visuals + environment
     
 ## 📝 Features
-* Interactions
+* 🔮 Interactions
     - [x] Quest 2 hand tracking interactions
     - [x] Custom made hand tracking events 
     - [x] Custom slicing mechanics   
-* 3D Assets
+* 🧱 3D Assets
     - [x] Custom 3D models created in maya/blender         
     - [x] Handmade stylistic environments     
     - [x] Custom rigged and animated characters  
-* Gameplay 
+* 🎮 Gameplay 
     - [x] Light-hearted + humorous storyline
     - [x] 5 handcrafted "stages"               
     - [x] 2 sushi making lessons - slicing fish for nigiri - forming + presenting nigiri
     - [x] Custom video lesson UI created with in-game video recordings
     
 ## 🕹️ Controls
-* **Quest 2 Hand Tracking**
-* **Custom Interactions**
+* **🙌 Quest 2 Hand Tracking**
 
 ## 👩‍💻 Process 
 
@@ -53,7 +52,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
   - 
 * 🧪 Testing + Iteration
   - 
-* 👌 Finalization + Polish
+* 💎 Finalization + Polish
   - 
 
 ## 🚀 Journey
