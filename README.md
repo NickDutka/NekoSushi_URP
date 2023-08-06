@@ -5,7 +5,7 @@
 <p align="center">
 
 ## Summary
-
+A stylized VR experience that utilizes Quest 2 handtracking to learn about traditional Japanese tools and techniques for sushi with a light-hearted story
 
 ## Project Aim / Goal / Pillars
 
