@@ -307,8 +307,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 
 * 🧩 **Early Challenges**
   
-  - **Pivoting Project Concept + Late Start**
-  
+  - **Pivoting Project Concept + Late Start:**
 During the early stages of the project, I initially set out to create a VR chemistry education app. However, as I delved deeper into the subject matter, I realized that the complexity of the content might hinder my ability to deliver a truly immersive and educational experience. Recognizing the importance of focusing on my strengths as a developer, I made the bold decision to pivot the project concept.
 
 // chem X
@@ -319,16 +318,17 @@ Admittedly, this pivot resulted in a late start for the new project concept. How
     
 * 🔄 **Adaptations + Solutions**
   
-  - **Shotgun Design Process**
+  - **Shotgun Design Process:**
 Realizing the need for a more focused and efficient approach, I made a pivotal decision to completely redesign the project. Drawing upon the skills and knowledge I had acquired up to that point, I streamlined the project outline and design documents. With limited time available, I swiftly got to work on the new project concept, ensuring that every element contributed to the overall vision.
 
-  - **Modular Approach**
+  - **Modular Approach:**
 Embracing a modular approach from the project's inception, I divided the development process into distinct, manageable components. Initially, this approach presented a challenge as individual pieces seemed disjointed. However, as the project progressed, the power of the modular approach became evident. It allowed me to work on different aspects of the project independently, refining each component with precision. As the pieces came together, the benifits of the modular design shone through, making the entire experience seamless and cohesive.
 
 * 🌟 **Moments of Breakthrough**
 
-  - **Shaders | Setting the Tone**
+  - **Shaders | Setting the Tone:**
 Building custom shaders to define the project's visual style was a pivotal moment. Creating a stylized water shader and cel shader akin to popular games like the new Zelda titles set the tone for Neko Sushi. As the project evolved, the consistent visual style emerged as one of the defining aspects of the project, leaving a lasting impact on both the gameplay and the user experience.
+<br> <!-- Add a line break here -->
 
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/2f6d954a-43a6-440b-8410-2e414633c011)" alt="Image 4" width="640" height="360">
@@ -337,10 +337,10 @@ Building custom shaders to define the project's visual style was a pivotal momen
 </div>
 <br> <!-- Add a line break here -->
 
-  - **The First Slice**
+  - **The First Slice:**
 Building out one of the core mechanics of the game, slicing, marked a significant milestone in the development process. I recognized the importance of this mechanic in validating the project's potential and keeping the motivation high. Even during the early prototype stages, the slicing mechanic proved to be incredibly successful and engaging, reinforcing my belief in the project's direction.
 
-  - **Character Creation**
+  - **Character Creation:**
 Proceeding to model the two main characters featured in the game was a significant step in the project's development. Recognizing their crucial role in driving the story, I dedicated a good amount of attention to their design. As someone with a personal interest in 3D modeling and design, this phase allowed me to take a creative break from coding in Unity. The process was highly enjoyable, and I was pleased with the final results. The characters received positive feedback from friends and peers, validating their importance in the game and how they integrated into the overall experience.
 
 <div align="center">
@@ -350,7 +350,7 @@ Proceeding to model the two main characters featured in the game was a significa
 </div>
 <br> <!-- Add a line break here -->
 
-  - **Animation**
+  - **Animation:**
 After completing the character modeling, I delved into the realm of rigging and animation using Blender and Unity. Recognizing the significance of animation in setting the tone of the experience, I was determined to learn and incorporate this skill into the project. I dedicated many hours to learning the foundations of animation through YouTube tutorials and practice.
 Once I had successfully rigged the characters and created a selection of animations, I introduced a clever material swapping animation technique to animate the eyes and mouths, achieving an anime-style look. This animation style seamlessly blended with the game's overall visuals, resulting in an engaging and cohesive experience. I felt a great sense of accomplishment with the final outcome, and the positive feedback reinforced my decision to include animations in the project.
 
@@ -366,8 +366,8 @@ Once I had successfully rigged the characters and created a selection of animati
 I worked on two major refinements to help improve the experience
 one was the refinement of the slicing mechanic, and the other was the actual design of the restaurant
 
-  - **The Refinened Slice**
-After testing the thegame with peers in the midway poiint i realized the slicing although functional, needed some work for it to truly have that satisfying feeling.
+  - **The Refinened Slice:**
+After testing the thegame with peers in the midway poiint I realized the slicing although functional, needed some work for it to truly have that satisfying feeling.
 I reworked it so that as players move the knife downwards along a predefined angle threshold, it detects and interacts with sliceable objects. The script intelligently switches the knife's layer based on the slicing action, ensuring seamless transitions between slicing and normal behavior. When the knife successfully collides with a sliceable object, it splits the object into two separate parts with realistic physics interactions. These newly sliced objects go through a routine that sets them up with all the necesary compentents enabling them to interact naturally with the game environment. The script incorporates a cooldown mechanism, preventing players from performing consecutive slices too rapidly.
 
 <div align="center">
