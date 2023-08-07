@@ -255,52 +255,52 @@ The aim of this VR experience is to provide users with an engaging and entertain
  
 * 🎮 **Gameplay Development**
 
-<div align="center">
+    <p align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/2bc23aff-e384-4f5b-b24a-6b26bf9782d9)" alt="Image 4" width="640" height="360">
   <br>
   "Intro Scene"
-</div>
+    </p>
 <br> <!-- Add a line break here -->
-<div align="center">
+    <p align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/23ad24de-79dc-4af0-b5aa-1715fca8af0e)" alt="Image 4" width="640" height="360">
   <br>
   "Sakudori Stage"
-</div>
+    </p>
 <br> <!-- Add a line break here -->
-<div align="center">
+    <p align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/1bdddc29-b103-4156-83eb-c6ee37223af9))" alt="Image 4" width="640" height="360">
   <br>
   "Nigiri Slicing Stage"
-</div>
+    </p>
 <br> <!-- Add a line break here -->
-<div align="center">
+    <p align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/8306a9f2-0747-4b62-9c40-5671410d1a30)" alt="Image 4" width="640" height="360">
   <br>
   "Nigiri Forming Stage"
-</div>
+    </p>
 <br> <!-- Add a line break here -->
 
 * 🧪 **Testing**
-* **Play tests**
+ - **Play tests**
 
 * 💎 **Finalization + Polish**
   
-* **Final Version**
+ - **Final Version**
 
-<div align="center">
+    <p align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/827d5724-e47e-49c3-a586-0acdf772984b)" alt="Image 4" width="640" height="360">
   <br>
   "Final Stage - Ending"
-</div>
+    </p>
 <br> <!-- Add a line break here -->
 
-* **Optimizations**
+ - **Optimizations**
 
-<div align="center">
+    <p align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705)">
   <br>
   "Optimizations"
-</div>
+    </p>
 <br> <!-- Add a line break here -->
 
 ## 🚀 Journey
@@ -309,11 +309,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
   
   - **Pivoting Project Concept + Late Start:**
 During the early stages of the project, I initially set out to create a VR chemistry education app. However, as I delved deeper into the subject matter, I realized that the complexity of the content might hinder my ability to deliver a truly immersive and educational experience. Recognizing the importance of focusing on my strengths as a developer, I made the bold decision to pivot the project concept.
-
-// chem X
-
 Inspired by my passion for Japanese cuisine and my background in the culinary arts, I reimagined the project and embarked on the creation of Neko Sushi. Leveraging my expertise in Japanese culinary techniques, I knew that this project would allow me to showcase my development skills while also tapping into my second-nature knowledge of the culinary world.
-
 Admittedly, this pivot resulted in a late start for the new project concept. However, I quickly adapted to the situation by prioritizing essential elements and optimizing my development process. This adaptive approach allowed me to make the most of the available time and resources, ensuring that the new project would be a true reflection of my abilities as a developer and my passion for Japanese cuisine.
     
 * 🔄 **Adaptations + Solutions**
@@ -345,7 +341,6 @@ Proceeding to model the two main characters featured in the game was a significa
   <br>
   "Konro Character"
 </div>
-
 
   - **Animation:**
 After completing the character modeling, I delved into the realm of rigging and animation using Blender and Unity. Recognizing the significance of animation in setting the tone of the experience, I was determined to learn and incorporate this skill into the project. I dedicated many hours to learning the foundations of animation through YouTube tutorials and practice.
