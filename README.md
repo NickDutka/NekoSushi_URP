@@ -216,16 +216,45 @@ The aim of this VR experience is to provide users with an engaging and entertain
 <br> <!-- Add a line break here -->
 
   - **UI Designs + Prototypes**
-<img width="256" alt="Nakiri_FullIcon" src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/47f60da7-f522-4c44-860b-37951caeba85">
+
+<div align="center">
+  <img width="256" alt="Nakiri_FullIcon" src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/47f60da7-f522-4c44-860b-37951caeba85">
+  <br>
+  "Custom Item Icons Made in Photoshop"
+</div>
+
 ![nakiriUI](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/9746b4b9-4c69-448f-bc6a-23d720f6666b)
 ![DialogueUI](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/5b61587d-5323-4d3c-b571-a1255213689c)
 ![instructionUIGIF](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/ff67b96b-f56d-4424-9379-2d4ef434520a)
-
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/9746b4b9-4c69-448f-bc6a-23d720f6666b)" alt="Image 4" width="640" height="360">
+  <br>
+  "Item UI Panel - Displays on Hand Hover"
+</div>
+<br> <!-- Add a line break here -->
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/5b61587d-5323-4d3c-b571-a1255213689c)" alt="Image 4" width="640" height="360">
+  <br>
+  "Dialogue UI Panel"
+</div>
+<br> <!-- Add a line break here -->
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/ff67b96b-f56d-4424-9379-2d4ef434520a)" alt="Image 4" width="640" height="360">
+  <br>
+  "Video Instruction UI Panel"
+</div>
+<br> <!-- Add a line break here -->
 
 * 👋 **Hand Tracking Implementation**
 
   - **AutoHand - VR Interaction Framework**
 ![autohand](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/b5694fa6-9970-41df-a095-18d6551d20fa)
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/b5694fa6-9970-41df-a095-18d6551d20fa)" alt="Image 4" width="640" height="360">
+  <br>
+  "AutoHand - Hand Tracking Demo"
+</div>
+<br> <!-- Add a line break here -->
  
 * 🎮 **Gameplay Development**
   
@@ -234,6 +263,31 @@ The aim of this VR experience is to provide users with an engaging and entertain
     ![sakuGif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/23ad24de-79dc-4af0-b5aa-1715fca8af0e)
     ![salmongif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/1bdddc29-b103-4156-83eb-c6ee37223af9)
     ![forminggif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/8306a9f2-0747-4b62-9c40-5671410d1a30)
+    
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/2bc23aff-e384-4f5b-b24a-6b26bf9782d9)" alt="Image 4" width="640" height="360">
+  <br>
+  "Intro Scene"
+</div>
+<br> <!-- Add a line break here -->
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/23ad24de-79dc-4af0-b5aa-1715fca8af0e)" alt="Image 4" width="640" height="360">
+  <br>
+  "Sakudori Stage"
+</div>
+<br> <!-- Add a line break here -->
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/1bdddc29-b103-4156-83eb-c6ee37223af9))" alt="Image 4" width="640" height="360">
+  <br>
+  "Nigiri Slicing Stage"
+</div>
+<br> <!-- Add a line break here -->
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/8306a9f2-0747-4b62-9c40-5671410d1a30)" alt="Image 4" width="640" height="360">
+  <br>
+  "Nigiri Forming Stage"
+</div>
+<br> <!-- Add a line break here -->
 
 * 🧪 **Testing**
   - **Play tests**
@@ -242,9 +296,21 @@ The aim of this VR experience is to provide users with an engaging and entertain
   
   - **Final Version**
 ![finalscencegi](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/827d5724-e47e-49c3-a586-0acdf772984b)
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/827d5724-e47e-49c3-a586-0acdf772984b)" alt="Image 4" width="640" height="360">
+  <br>
+  "Final Stage - Ending"
+</div>
+<br> <!-- Add a line break here -->
 
   - **Optimizations**
 ![optimizations](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705)
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705)" alt="Image 4" width="640" height="360">
+  <br>
+  "Optimizations"
+</div>
+<br> <!-- Add a line break here -->
 
 ## 🚀 Journey
 
