@@ -362,13 +362,11 @@ I reworked it so that as players move the knife downwards along a predefined ang
   <br>
   "Refined Slice"
     </p>
-<br> <!-- Add a line break here -->
     <p align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6e573d76-c121-4e50-a21e-2bf1df5997c4)">
   <br>
   "Refined Slice"
     </p>
-<br> <!-- Add a line break here -->
   - **Level Design**
 Introducing the new restaurant design was a decision aimed at creating a more natural integration with the exterior environment. Early versions of the interior felt somewhat closed off, limiting the player's ability to enjoy the outside surroundings. Despite my initial attachment to the previous design, I recognized the value of enhancing the overall experience by making this change.
 Incorporating the new restaurant design proved to be time-consuming, but it was undoubtedly worthwhile. The updated layout now significantly contributes to the immersive experience for players. The blend between the interior and exterior environments adds depth to the virtual world, creating a more captivating journey for users.
