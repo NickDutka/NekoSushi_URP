@@ -324,11 +324,11 @@ The aim of this VR experience is to provide users with an engaging and entertain
   <br>
   "User Testing 2 - Demo Loop"
 </div>
-<br> <!-- Add a line break here -->
 
 * 💎 **Finalization + Polish**
 
 <div align="center">
+  
   **Final Version**
 </div>
 
