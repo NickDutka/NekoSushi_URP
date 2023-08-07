@@ -244,7 +244,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 
 * 👋 **Hand Tracking Implementation**
 
-  - **AutoHand - VR Interaction Framework**
+* **AutoHand - VR Interaction Framework**
 
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/b5694fa6-9970-41df-a095-18d6551d20fa)" alt="Image 4" width="640" height="360">
@@ -281,11 +281,11 @@ The aim of this VR experience is to provide users with an engaging and entertain
 <br> <!-- Add a line break here -->
 
 * 🧪 **Testing**
-  - **Play tests**
+* **Play tests**
 
 * 💎 **Finalization + Polish**
   
-  - **Final Version**
+* **Final Version**
 
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/827d5724-e47e-49c3-a586-0acdf772984b)" alt="Image 4" width="640" height="360">
@@ -294,10 +294,10 @@ The aim of this VR experience is to provide users with an engaging and entertain
 </div>
 <br> <!-- Add a line break here -->
 
-  - **Optimizations**
+* **Optimizations**
 
 <div align="center">
- <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705)"
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705)">
   <br>
   "Optimizations"
 </div>
