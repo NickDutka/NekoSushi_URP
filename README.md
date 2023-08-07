@@ -189,10 +189,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 <br> <!-- Add a line break here -->
 
   - **Environment + Level Design**
-![EnviroProto_Optimized01](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/90d40076-f95e-4812-9a7a-009a3521f2b1)
-![firstrestaurant](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/b743396c-d7d4-4d6f-becc-66e423428e62)
-![NewRestaurantExterior2](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/7e45ceb4-f6f8-47a1-8c6b-d398088b28cc)
-![NewRestaurant2](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/f6d1030a-db72-40ca-af8e-b57aeff977d8)
+
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/90d40076-f95e-4812-9a7a-009a3521f2b1)" alt="Image 4" width="640" height="360">
   <br>
