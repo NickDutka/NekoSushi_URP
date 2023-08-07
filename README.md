@@ -222,10 +222,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
   <br>
   "Custom Item Icons Made in Photoshop"
 </div>
-
-![nakiriUI](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/9746b4b9-4c69-448f-bc6a-23d720f6666b)
-![DialogueUI](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/5b61587d-5323-4d3c-b571-a1255213689c)
-![instructionUIGIF](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/ff67b96b-f56d-4424-9379-2d4ef434520a)
+<br> <!-- Add a line break here -->
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/9746b4b9-4c69-448f-bc6a-23d720f6666b)" alt="Image 4" width="640" height="360">
   <br>
@@ -248,7 +245,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 * 👋 **Hand Tracking Implementation**
 
   - **AutoHand - VR Interaction Framework**
-![autohand](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/b5694fa6-9970-41df-a095-18d6551d20fa)
+
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/b5694fa6-9970-41df-a095-18d6551d20fa)" alt="Image 4" width="640" height="360">
   <br>
@@ -257,13 +254,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 <br> <!-- Add a line break here -->
  
 * 🎮 **Gameplay Development**
-  
-  - **Game Stages Recordings**
-    ![introSCenegif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/2bc23aff-e384-4f5b-b24a-6b26bf9782d9)
-    ![sakuGif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/23ad24de-79dc-4af0-b5aa-1715fca8af0e)
-    ![salmongif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/1bdddc29-b103-4156-83eb-c6ee37223af9)
-    ![forminggif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/8306a9f2-0747-4b62-9c40-5671410d1a30)
-    
+
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/2bc23aff-e384-4f5b-b24a-6b26bf9782d9)" alt="Image 4" width="640" height="360">
   <br>
@@ -295,7 +286,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 * 💎 **Finalization + Polish**
   
   - **Final Version**
-![finalscencegi](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/827d5724-e47e-49c3-a586-0acdf772984b)
+
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/827d5724-e47e-49c3-a586-0acdf772984b)" alt="Image 4" width="640" height="360">
   <br>
@@ -304,9 +295,9 @@ The aim of this VR experience is to provide users with an engaging and entertain
 <br> <!-- Add a line break here -->
 
   - **Optimizations**
-![optimizations](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705)
+
 <div align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705)" alt="Image 4" width="640" height="360">
+ <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705)"
   <br>
   "Optimizations"
 </div>
@@ -338,7 +329,13 @@ Embracing a modular approach from the project's inception, I divided the develop
 
   - **Shaders | Setting the Tone**
 Building custom shaders to define the project's visual style was a pivotal moment. Creating a stylized water shader and cel shader akin to popular games like the new Zelda titles set the tone for Neko Sushi. As the project evolved, the consistent visual style emerged as one of the defining aspects of the project, leaving a lasting impact on both the gameplay and the user experience.
-![Shader](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/2f6d954a-43a6-440b-8410-2e414633c011)
+
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/2f6d954a-43a6-440b-8410-2e414633c011)" alt="Image 4" width="640" height="360">
+  <br>
+  "Shader Development"
+</div>
+<br> <!-- Add a line break here -->
 
   - **The First Slice**
 Building out one of the core mechanics of the game, slicing, marked a significant milestone in the development process. I recognized the importance of this mechanic in validating the project's potential and keeping the motivation high. Even during the early prototype stages, the slicing mechanic proved to be incredibly successful and engaging, reinforcing my belief in the project's direction.
@@ -346,14 +343,23 @@ Building out one of the core mechanics of the game, slicing, marked a significan
   - **Character Creation**
 Proceeding to model the two main characters featured in the game was a significant step in the project's development. Recognizing their crucial role in driving the story, I dedicated a good amount of attention to their design. As someone with a personal interest in 3D modeling and design, this phase allowed me to take a creative break from coding in Unity. The process was highly enjoyable, and I was pleased with the final results. The characters received positive feedback from friends and peers, validating their importance in the game and how they integrated into the overall experience.
 
-![konrogif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/81783aff-d05e-4e1e-b637-fdf52c32cab6)
-
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/81783aff-d05e-4e1e-b637-fdf52c32cab6)" alt="Image 4" width="640" height="360">
+  <br>
+  "Konro Character"
+</div>
+<br> <!-- Add a line break here -->
 
   - **Animation**
 After completing the character modeling, I delved into the realm of rigging and animation using Blender and Unity. Recognizing the significance of animation in setting the tone of the experience, I was determined to learn and incorporate this skill into the project. I dedicated many hours to learning the foundations of animation through YouTube tutorials and practice.
 Once I had successfully rigged the characters and created a selection of animations, I introduced a clever material swapping animation technique to animate the eyes and mouths, achieving an anime-style look. This animation style seamlessly blended with the game's overall visuals, resulting in an engaging and cohesive experience. I felt a great sense of accomplishment with the final outcome, and the positive feedback reinforced my decision to include animations in the project.
 
-![nekogof](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/e12c858d-b722-49d8-993b-01279a87c041)
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/e12c858d-b722-49d8-993b-01279a87c041)" alt="Image 4" width="640" height="360">
+  <br>
+  "Neko Animations"
+</div>
+<br> <!-- Add a line break here -->
 
 * 🔍 **Iterations + Improvements**
 
@@ -364,16 +370,37 @@ one was the refinement of the slicing mechanic, and the other was the actual des
 After testing the thegame with peers in the midway poiint i realized the slicing although functional, needed some work for it to truly have that satisfying feeling.
 I reworked it so that as players move the knife downwards along a predefined angle threshold, it detects and interacts with sliceable objects. The script intelligently switches the knife's layer based on the slicing action, ensuring seamless transitions between slicing and normal behavior. When the knife successfully collides with a sliceable object, it splits the object into two separate parts with realistic physics interactions. These newly sliced objects go through a routine that sets them up with all the necesary compentents enabling them to interact naturally with the game environment. The script incorporates a cooldown mechanism, preventing players from performing consecutive slices too rapidly.
 
-![script](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/cbce63a5-8da0-4b35-ae58-4336db7060a2)
-![refined slice](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6e573d76-c121-4e50-a21e-2bf1df5997c4)
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/cbce63a5-8da0-4b35-ae58-4336db7060a2)">
+  <br>
+  "Refined Slice"
+</div>
+<br> <!-- Add a line break here -->
+
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6e573d76-c121-4e50-a21e-2bf1df5997c4)">
+  <br>
+  "Refined Slice"
+</div>
+<br> <!-- Add a line break here -->
 
   - **Level Design**
 Introducing the new restaurant design was a decision aimed at creating a more natural integration with the exterior environment. Early versions of the interior felt somewhat closed off, limiting the player's ability to enjoy the outside surroundings. Despite my initial attachment to the previous design, I recognized the value of enhancing the overall experience by making this change.
 Incorporating the new restaurant design proved to be time-consuming, but it was undoubtedly worthwhile. The updated layout now significantly contributes to the immersive experience for players. The blend between the interior and exterior environments adds depth to the virtual world, creating a more captivating journey for users.
 
-![firstrestaurant](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/1562c456-7cf1-4999-888d-c76808d85df3)
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/b743396c-d7d4-4d6f-becc-66e423428e62)" alt="Image 4" width="640" height="360">
+  <br>
+  "First Restaurant - Prototype"
+</div>
+<br> <!-- Add a line break here -->
 
-![NewRestaurantExterior2](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/a97dd018-b2c3-4993-b4a5-df35d2a14c5b)  
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/f6d1030a-db72-40ca-af8e-b57aeff977d8)" alt="Image 4" width="640" height="360">
+  <br>
+  "Remodeled Restaurant - Prototype 2"
+</div>
+<br> <!-- Add a line break here -->
 
 * 🌄 **Reflection**
 
