@@ -337,7 +337,7 @@ Building out one of the core mechanics of the game, slicing, marked a significan
 Proceeding to model the two main characters featured in the game was a significant step in the project's development. Recognizing their crucial role in driving the story, I dedicated a good amount of attention to their design. As someone with a personal interest in 3D modeling and design, this phase allowed me to take a creative break from coding in Unity. The process was highly enjoyable, and I was pleased with the final results. The characters received positive feedback from friends and peers, validating their importance in the game and how they integrated into the overall experience.
 
 <div align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/81783aff-d05e-4e1e-b637-fdf52c32cab6)" alt="Image 4" width="640" height="360">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/81783aff-d05e-4e1e-b637-fdf52c32cab6" alt="Image 4" width="640" height="360">
   <br>
   "Konro Character"
 </div>
@@ -347,7 +347,7 @@ After completing the character modeling, I delved into the realm of rigging and 
 Once I had successfully rigged the characters and created a selection of animations, I introduced a clever material swapping animation technique to animate the eyes and mouths, achieving an anime-style look. This animation style seamlessly blended with the game's overall visuals, resulting in an engaging and cohesive experience. I felt a great sense of accomplishment with the final outcome, and the positive feedback reinforced my decision to include animations in the project.
 
 <div align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/e12c858d-b722-49d8-993b-01279a87c041)" alt="Image 4" width="640" height="360">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/e12c858d-b722-49d8-993b-01279a87c041" alt="Image 4" width="640" height="360">
   <br>
   "Neko Animations"
 </div>
@@ -360,15 +360,15 @@ After testing the thegame with peers in the midway poiint I realized the slicing
 I reworked it so that as players move the knife downwards along a predefined angle threshold, it detects and interacts with sliceable objects. The script intelligently switches the knife's layer based on the slicing action, ensuring seamless transitions between slicing and normal behavior. When the knife successfully collides with a sliceable object, it splits the object into two separate parts with realistic physics interactions. These newly sliced objects go through a routine that sets them up with all the necesary compentents enabling them to interact naturally with the game environment. The script incorporates a cooldown mechanism, preventing players from performing consecutive slices too rapidly.
 
     <p align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/cbce63a5-8da0-4b35-ae58-4336db7060a2)" alt="Image 3" width="640" height="360">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/cbce63a5-8da0-4b35-ae58-4336db7060a2" alt="Image 3" width="640" height="360">
   <br>
-  "Refined Slice"
+  "Refined Slice - Script"
     </p>
   
     <p align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6e573d76-c121-4e50-a21e-2bf1df5997c4)" alt="Image 4" width="640" height="360">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6e573d76-c121-4e50-a21e-2bf1df5997c4" alt="Image 4" width="640" height="360">
   <br>
-  "Refined Slice"
+  "Refined Slice - Knife Setup"
     </p>
   
   - **Level Design**
@@ -376,14 +376,14 @@ Introducing the new restaurant design was a decision aimed at creating a more na
 Incorporating the new restaurant design proved to be time-consuming, but it was undoubtedly worthwhile. The updated layout now significantly contributes to the immersive experience for players. The blend between the interior and exterior environments adds depth to the virtual world, creating a more captivating journey for users.
 
 <div align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/b743396c-d7d4-4d6f-becc-66e423428e62)" alt="Image 4" width="640" height="360">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/b743396c-d7d4-4d6f-becc-66e423428e62" alt="Image 4" width="640" height="360">
   <br>
   "First Restaurant - Prototype"
 </div>
 <br> <!-- Add a line break here -->
 
 <div align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/f6d1030a-db72-40ca-af8e-b57aeff977d8)" alt="Image 4" width="640" height="360">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/f6d1030a-db72-40ca-af8e-b57aeff977d8" alt="Image 4" width="640" height="360">
   <br>
   "Remodeled Restaurant - Prototype 2"
 </div>
