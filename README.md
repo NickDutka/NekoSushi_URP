@@ -287,20 +287,21 @@ The aim of this VR experience is to provide users with an engaging and entertain
   
  - **Final Version**
 
-    <p align="center">
+
+<p align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/827d5724-e47e-49c3-a586-0acdf772984b" alt="Image 4" width="640" height="360">
   <br>
   "Final Stage - Ending"
-    </p>
+</p>
 <br> <!-- Add a line break here -->
 
- - **Optimizations**
+- **Optimizations**
 
-    <p align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705">
+<p align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705" alt="Image 5" width="640" height="360">
   <br>
   "Optimizations"
-    </p>
+</p>
 <br> <!-- Add a line break here -->
 
 ## 🚀 Journey
