@@ -344,8 +344,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 ## 🚀 Journey
 
 * 🧩 **Early Challenges**
-  
-- **Pivoting Project Concept + Late Start:**
+  - **Pivoting Project Concept + Late Start:**
 During the early stages of the project, I initially set out to create a VR chemistry education app. However, as I delved deeper into the subject matter, I realized that the complexity of the content might hinder my ability to deliver a truly immersive and educational experience. Recognizing the importance of focusing on my strengths as a developer, I made the bold decision to pivot the project concept.  
 Inspired by my passion for Japanese cuisine and my background in the culinary arts, I reimagined the project and embarked on the creation of Neko Sushi. Leveraging my expertise in Japanese culinary techniques, I knew that this project would allow me to showcase my development skills while also tapping into my second-nature knowledge of the culinary world.  
 Admittedly, this pivot resulted in a late start for the new project concept. However, I quickly adapted to the situation by prioritizing essential elements and optimizing my development process. This adaptive approach allowed me to make the most of the available time and resources, ensuring that the new project would be a true reflection of my abilities as a developer and my passion for Japanese cuisine.
@@ -370,6 +369,12 @@ Building custom shaders to define the project's visual style was a pivotal momen
 
   - **The First Slice:**
 Building out one of the core mechanics of the game, slicing, marked a significant milestone in the development process. I recognized the importance of this mechanic in validating the project's potential and keeping the motivation high. Even during the early prototype stages, the slicing mechanic proved to be incredibly successful and engaging, reinforcing my belief in the project's direction.
+
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/aca01262-788b-4aa1-94e7-afd3f6fa7f72" alt="slice" width="640" height="360">
+  <br>
+  "First Slice Prototype"
+</div>
 
   - **Character Creation:**
 Proceeding to model the two main characters featured in the game was a significant step in the project's development. Recognizing their crucial role in driving the story, I dedicated a good amount of attention to their design. As someone with a personal interest in 3D modeling and design, this phase allowed me to take a creative break from coding in Unity. The process was highly enjoyable, and I was pleased with the final results. The characters received positive feedback from friends and peers, validating their importance in the game and how they integrated into the overall experience.
