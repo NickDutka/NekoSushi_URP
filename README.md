@@ -326,7 +326,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 </div>
 
 * 💎 **Finalization + Polish**
-
+<br> <!-- Add a line break here -->
 <div align="center">
   
   **Final Version**
