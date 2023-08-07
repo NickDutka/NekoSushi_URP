@@ -40,7 +40,8 @@ The aim of this VR experience is to provide users with an engaging and entertain
 * 💡 **Concept + Planning**
 
 <div align="center">
-  <h2>Game Identity + Design Pillars + Story</h2>
+  
+  **Game Identity + Design Pillars + Story**
 </div>
 
 <div align="center">
@@ -62,7 +63,11 @@ The aim of this VR experience is to provide users with an engaging and entertain
 </div>
 <br> <!-- Add a line break here -->
 
-* **User Flows**
+<div align="center">
+  
+  **User Flows**
+</div>
+
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/7ec7f03b-0bc5-4f36-b905-f36ae4a68bb1" alt="Image 1" width="320" height="180">
   <br>
@@ -94,7 +99,10 @@ The aim of this VR experience is to provide users with an engaging and entertain
 </div>
 <br> <!-- Add a line break here -->
 
-* **Planning**
+<div align="center">
+  
+  **Planning**
+</div>
   
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/ec8f5bd0-cfa3-4962-b97e-20260847a0cb" alt="Image 1" width="320" height="180">
@@ -121,7 +129,10 @@ The aim of this VR experience is to provide users with an engaging and entertain
 </div>
 <br> <!-- Add a line break here -->
 
-* **Concept Art**
+<div align="center">
+  
+  **Concept Art**
+</div>
 
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/e8d06b1a-7d39-466f-bb23-cc838021e954" alt="Image 1" width="480" height="640">
@@ -149,7 +160,10 @@ The aim of this VR experience is to provide users with an engaging and entertain
 
 * 🎨 **Design + Prototyping**
 
-* **Interaction Prototypes**
+<div align="center">
+  
+  **Interaction Prototypes**
+</div>
 
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/5e9e6fcd-343d-4bdf-ae9d-817714405dbb)" alt="Image 4" width="640" height="360">
@@ -164,7 +178,10 @@ The aim of this VR experience is to provide users with an engaging and entertain
 </div>
 <br> <!-- Add a line break here -->
 
-  - **3D Asset Creation**
+<div align="center">
+  
+  **3D Asset Creation**
+</div>
 
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/50bc20db-4e16-4a49-900b-75888ce7fe87)" alt="Image 4" width="640" height="360">
@@ -191,7 +208,10 @@ The aim of this VR experience is to provide users with an engaging and entertain
 </div>
 <br> <!-- Add a line break here -->
 
-  - **Environment + Level Design**
+<div align="center">
+  
+  **Environment + Level Design**
+</div>
 
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/90d40076-f95e-4812-9a7a-009a3521f2b1)" alt="Image 4" width="640" height="360">
@@ -218,7 +238,10 @@ The aim of this VR experience is to provide users with an engaging and entertain
 </div>
 <br> <!-- Add a line break here -->
 
-  - **UI Designs + Prototypes**
+<div align="center">
+  
+  **UI Designs + Prototypes**
+</div>
 
 <div align="center">
   <img width="256" alt="Nakiri_FullIcon" src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/47f60da7-f522-4c44-860b-37951caeba85">
@@ -247,7 +270,10 @@ The aim of this VR experience is to provide users with an engaging and entertain
 
 * 👋 **Hand Tracking Implementation**
 
-* **AutoHand - VR Interaction Framework**
+<div align="center">
+  
+  **AutoHand - VR Interaction Framework**
+</div>
 
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/b5694fa6-9970-41df-a095-18d6551d20fa)" alt="Image 4" width="640" height="360">
@@ -284,12 +310,17 @@ The aim of this VR experience is to provide users with an engaging and entertain
 <br> <!-- Add a line break here -->
 
 * 🧪 **Testing**
- - **Play tests**
+<div align="center">
+  
+  **Play Tests**
+</div>
 
 * 💎 **Finalization + Polish**
   
- - **Final Version**
-
+<div align="center">
+  
+  **Final Version**
+</div>
 
 <p align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/827d5724-e47e-49c3-a586-0acdf772984b" alt="Image 4" width="640" height="360">
@@ -298,12 +329,15 @@ The aim of this VR experience is to provide users with an engaging and entertain
 </p>
 <br> <!-- Add a line break here -->
 
-- **Optimizations**
+<div align="center">
+  
+  **Optimizations**
+</div>
 
 <p align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705" alt="Image 5" width="640" height="360">
   <br>
-  "Optimizations"
+  "Unity Stats Screen After Optimizations"
 </p>
 <br> <!-- Add a line break here -->
 
@@ -392,16 +426,15 @@ Incorporating the new restaurant design proved to be time-consuming, but it was 
 <br> <!-- Add a line break here -->
 
 * 🌄 **Reflection**
-
- - **Lessons Learned**
+  - **Lessons Learned**
 
 The development of this VR experience taught me valuable lessons about creating immersive hand-tracking interactions that feel natural and intuitive to users. I learned the importance of user testing and iteration to refine gameplay mechanics and ensure a seamless user experience. Additionally, working with Quest 2 hand tracking introduced me to new challenges and possibilities, encouraging me to explore innovative ways of integrating this technology into future projects.
 
-- **Successes + Achievements**
+  - **Successes + Achievements**
 
 One of the most gratifying aspects of this VR project was witnessing users interact with the custom slicing mechanics. Observing their delight as they sliced fish for nigiri and formed sushi with their own hands validated the effort we put into creating engaging and enjoyable interactions. The positive user feedback and excitement for the light-hearted storyline confirmed that I successfully achieved my goal of making learning about Japanese sushi-making a fun and immersive experience.
 
-- **Areas for Improvement**
+  - **Areas for Improvement**
 
 The late start to the project impacted the development timeline, making it more challenging to incorporate certain features I initially planned. Better time management and planning would be crucial for future projects to avoid such delays.
 
