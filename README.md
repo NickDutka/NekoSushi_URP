@@ -354,19 +354,22 @@ Once I had successfully rigged the characters and created a selection of animati
 <br> <!-- Add a line break here -->
 
 * 🔍 **Iterations + Improvements**
+
   - **The Refinened Slice:**
 After testing the thegame with peers in the midway poiint I realized the slicing although functional, needed some work for it to truly have that satisfying feeling.
 I reworked it so that as players move the knife downwards along a predefined angle threshold, it detects and interacts with sliceable objects. The script intelligently switches the knife's layer based on the slicing action, ensuring seamless transitions between slicing and normal behavior. When the knife successfully collides with a sliceable object, it splits the object into two separate parts with realistic physics interactions. These newly sliced objects go through a routine that sets them up with all the necesary compentents enabling them to interact naturally with the game environment. The script incorporates a cooldown mechanism, preventing players from performing consecutive slices too rapidly.
     <p align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/cbce63a5-8da0-4b35-ae58-4336db7060a2)">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/cbce63a5-8da0-4b35-ae58-4336db7060a2)" alt="Image 4" width="640" height="360">
   <br>
   "Refined Slice"
     </p>
+  
     <p align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6e573d76-c121-4e50-a21e-2bf1df5997c4)">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6e573d76-c121-4e50-a21e-2bf1df5997c4)" alt="Image 4" width="640" height="360">
   <br>
   "Refined Slice"
     </p>
+  
   - **Level Design**
 Introducing the new restaurant design was a decision aimed at creating a more natural integration with the exterior environment. Early versions of the interior felt somewhat closed off, limiting the player's ability to enjoy the outside surroundings. Despite my initial attachment to the previous design, I recognized the value of enhancing the overall experience by making this change.
 Incorporating the new restaurant design proved to be time-consuming, but it was undoubtedly worthwhile. The updated layout now significantly contributes to the immersive experience for players. The blend between the interior and exterior environments adds depth to the virtual world, creating a more captivating journey for users.
