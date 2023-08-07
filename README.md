@@ -313,6 +313,8 @@ The aim of this VR experience is to provide users with an engaging and entertain
 <div align="center">
   
   **Play Tests**
+</div>
+
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/eaece6cb-4e5b-4e0d-b905-41b75e106ce5" alt="Image 4" width="360" height="640">
   <br>
@@ -326,7 +328,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 </div>
 
 * 💎 **Finalization + Polish**
-<br> <!-- Add a line break here -->
+
 <div align="center">
   
   **Final Version**
