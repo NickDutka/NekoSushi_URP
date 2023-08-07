@@ -40,9 +40,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 * 💡 **Concept + Planning**
 
 <div align="center">
-  
-  **Game Identity + Design Pillars + Story**
-  
+  <h2>Game Identity + Design Pillars + Story</h2>
 </div>
 
 <div align="center">
