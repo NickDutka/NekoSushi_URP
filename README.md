@@ -313,7 +313,19 @@ The aim of this VR experience is to provide users with an engaging and entertain
 <div align="center">
   
   **Play Tests**
-</div>
+<br> <!-- Add a line break here -->
+    <p align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/eaece6cb-4e5b-4e0d-b905-41b75e106ce5" alt="Image 4" width="360" height="640">
+  <br>
+  "User Testing 1 - Demo Loop"
+    </p>
+<br> <!-- Add a line break here -->
+    <p align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/11a05a36-1825-48a6-9d30-b1ce38ee47b5)" alt="Image 4" width="640" height="360">
+  <br>
+  "User Testing 2 - Demo Loop"
+    </p>
+<br> <!-- Add a line break here -->
 
 * 💎 **Finalization + Polish**
   
@@ -375,6 +387,7 @@ Building out one of the core mechanics of the game, slicing, marked a significan
   <br>
   "First Slice Prototype"
 </div>
+<br> <!-- Add a line break here -->
 
   - **Character Creation:**
 Proceeding to model the two main characters featured in the game was a significant step in the project's development. Recognizing their crucial role in driving the story, I dedicated a good amount of attention to their design. As someone with a personal interest in 3D modeling and design, this phase allowed me to take a creative break from coding in Unity. The process was highly enjoyable, and I was pleased with the final results. The characters received positive feedback from friends and peers, validating their importance in the game and how they integrated into the overall experience.
