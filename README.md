@@ -288,7 +288,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
  - **Final Version**
 
     <p align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/827d5724-e47e-49c3-a586-0acdf772984b)" alt="Image 4" width="640" height="360">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/827d5724-e47e-49c3-a586-0acdf772984b" alt="Image 4" width="640" height="360">
   <br>
   "Final Stage - Ending"
     </p>
@@ -297,7 +297,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
  - **Optimizations**
 
     <p align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705)">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705">
   <br>
   "Optimizations"
     </p>
@@ -360,7 +360,7 @@ After testing the thegame with peers in the midway poiint I realized the slicing
 I reworked it so that as players move the knife downwards along a predefined angle threshold, it detects and interacts with sliceable objects. The script intelligently switches the knife's layer based on the slicing action, ensuring seamless transitions between slicing and normal behavior. When the knife successfully collides with a sliceable object, it splits the object into two separate parts with realistic physics interactions. These newly sliced objects go through a routine that sets them up with all the necesary compentents enabling them to interact naturally with the game environment. The script incorporates a cooldown mechanism, preventing players from performing consecutive slices too rapidly.
 
     <p align="center">
-  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/cbce63a5-8da0-4b35-ae58-4336db7060a2" alt="Image 3" width="640" height="360">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/cbce63a5-8da0-4b35-ae58-4336db7060a2" alt="Script" width="640" height="360">
   <br>
   "Refined Slice - Script"
     </p>
