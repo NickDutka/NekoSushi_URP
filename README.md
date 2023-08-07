@@ -320,11 +320,12 @@ The aim of this VR experience is to provide users with an engaging and entertain
   "User Testing 1 - Demo Loop"
     </p>
 <br> <!-- Add a line break here -->
-    <p align="center">
+<div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/11a05a36-1825-48a6-9d30-b1ce38ee47b5)" alt="Image 4" width="360" height="640">
   <br>
   "User Testing 2 - Demo Loop"
-    </p>
+</div>
+<br> <!-- Add a line break here -->
 
 * 💎 **Finalization + Polish**
   
