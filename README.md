@@ -328,14 +328,14 @@ Embracing a modular approach from the project's inception, I divided the develop
 
   - **Shaders | Setting the Tone:**
 Building custom shaders to define the project's visual style was a pivotal moment. Creating a stylized water shader and cel shader akin to popular games like the new Zelda titles set the tone for Neko Sushi. As the project evolved, the consistent visual style emerged as one of the defining aspects of the project, leaving a lasting impact on both the gameplay and the user experience.
-<br> <!-- Add a line break here -->
+
 
 <div align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/2f6d954a-43a6-440b-8410-2e414633c011)" alt="Image 4" width="640" height="360">
   <br>
   "Shader Development"
 </div>
-<br> <!-- Add a line break here -->
+
 
   - **The First Slice:**
 Building out one of the core mechanics of the game, slicing, marked a significant milestone in the development process. I recognized the importance of this mechanic in validating the project's potential and keeping the motivation high. Even during the early prototype stages, the slicing mechanic proved to be incredibly successful and engaging, reinforcing my belief in the project's direction.
@@ -348,7 +348,7 @@ Proceeding to model the two main characters featured in the game was a significa
   <br>
   "Konro Character"
 </div>
-<br> <!-- Add a line break here -->
+
 
   - **Animation:**
 After completing the character modeling, I delved into the realm of rigging and animation using Blender and Unity. Recognizing the significance of animation in setting the tone of the experience, I was determined to learn and incorporate this skill into the project. I dedicated many hours to learning the foundations of animation through YouTube tutorials and practice.
