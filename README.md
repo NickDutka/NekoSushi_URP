@@ -166,6 +166,30 @@ The aim of this VR experience is to provide users with an engaging and entertain
 ![Neko](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6764aeca-53ba-4dea-a7f9-ec574f43b79c)
 ![knifemodels](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/d56cc58d-2946-4db4-ba3a-8db8670a3245)
 ![FishModel](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/4621a669-726f-45ec-87f0-3a233e39453e)
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/50bc20db-4e16-4a49-900b-75888ce7fe87)" alt="Image 4" width="320" height="180">
+  <br>
+  "Konro - Model"
+</div>
+<br> <!-- Add a line break here -->
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6764aeca-53ba-4dea-a7f9-ec574f43b79c)" alt="Image 4" width="320" height="180">
+  <br>
+  "Neko - Model"
+</div>
+<br> <!-- Add a line break here -->
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/d56cc58d-2946-4db4-ba3a-8db8670a3245)" alt="Image 4" width="320" height="180">
+  <br>
+  "Knife Selection - Model"
+</div>
+<br> <!-- Add a line break here -->
+<div align="center">
+  <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/4621a669-726f-45ec-87f0-3a233e39453e)" alt="Image 4" width="320" height="180">
+  <br>
+  "Fish Fillet - Model"
+</div>
+<br> <!-- Add a line break here -->
 
   - **Environment + Level Design**
 ![EnviroProto_Optimized01](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/90d40076-f95e-4812-9a7a-009a3521f2b1)
@@ -199,6 +223,7 @@ The aim of this VR experience is to provide users with an engaging and entertain
 * 💎 **Finalization + Polish**
   
   - **Final Version**
+![finalscencegi](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/827d5724-e47e-49c3-a586-0acdf772984b)
 
   - **Optimizations**
 ![optimizations](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705)
@@ -207,36 +232,63 @@ The aim of this VR experience is to provide users with an engaging and entertain
 
 * 🧩 **Early Challenges**
   
-  - **Pivoting Project Concept**
-    
-  - **Late Start**
+  - **Pivoting Project Concept + Late Start**
+  
+During the early stages of the project, I initially set out to create a VR chemistry education app. However, as I delved deeper into the subject matter, I realized that the complexity of the content might hinder my ability to deliver a truly immersive and educational experience. Recognizing the importance of focusing on my strengths as a developer, I made the bold decision to pivot the project concept.
+
+// chem X
+
+Inspired by my passion for Japanese cuisine and my background in the culinary arts, I reimagined the project and embarked on the creation of Neko Sushi. Leveraging my expertise in Japanese culinary techniques, I knew that this project would allow me to showcase my development skills while also tapping into my second-nature knowledge of the culinary world.
+
+Admittedly, this pivot resulted in a late start for the new project concept. However, I quickly adapted to the situation by prioritizing essential elements and optimizing my development process. This adaptive approach allowed me to make the most of the available time and resources, ensuring that the new project would be a true reflection of my abilities as a developer and my passion for Japanese cuisine.
     
 * 🔄 **Adaptations + Solutions**
   
   - **Shotgun Design Process**
-    
+Realizing the need for a more focused and efficient approach, I made a pivotal decision to completely redesign the project. Drawing upon the skills and knowledge I had acquired up to that point, I streamlined the project outline and design documents. With limited time available, I swiftly got to work on the new project concept, ensuring that every element contributed to the overall vision.
+
   - **Modular Approach**
-    
+Embracing a modular approach from the project's inception, I divided the development process into distinct, manageable components. Initially, this approach presented a challenge as individual pieces seemed disjointed. However, as the project progressed, the power of the modular approach became evident. It allowed me to work on different aspects of the project independently, refining each component with precision. As the pieces came together, the benifits of the modular design shone through, making the entire experience seamless and cohesive.
+
 * 🌟 **Moments of Breakthrough**
 
   - **Shaders | Setting the Tone**
+Building custom shaders to define the project's visual style was a pivotal moment. Creating a stylized water shader and cel shader akin to popular games like the new Zelda titles set the tone for Neko Sushi. As the project evolved, the consistent visual style emerged as one of the defining aspects of the project, leaving a lasting impact on both the gameplay and the user experience.
 ![Shader](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/2f6d954a-43a6-440b-8410-2e414633c011)
 
   - **The First Slice**
+Building out one of the core mechanics of the game, slicing, marked a significant milestone in the development process. I recognized the importance of this mechanic in validating the project's potential and keeping the motivation high. Even during the early prototype stages, the slicing mechanic proved to be incredibly successful and engaging, reinforcing my belief in the project's direction.
 
   - **Character Creation**
+Proceeding to model the two main characters featured in the game was a significant step in the project's development. Recognizing their crucial role in driving the story, I dedicated a good amount of attention to their design. As someone with a personal interest in 3D modeling and design, this phase allowed me to take a creative break from coding in Unity. The process was highly enjoyable, and I was pleased with the final results. The characters received positive feedback from friends and peers, validating their importance in the game and how they integrated into the overall experience.
+
 ![konrogif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/81783aff-d05e-4e1e-b637-fdf52c32cab6)
 
 
   - **Animation**
-![nekogof](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/e12c858d-b722-49d8-993b-01279a87c041)
+After completing the character modeling, I delved into the realm of rigging and animation using Blender and Unity. Recognizing the significance of animation in setting the tone of the experience, I was determined to learn and incorporate this skill into the project. I dedicated many hours to learning the foundations of animation through YouTube tutorials and practice.
+Once I had successfully rigged the characters and created a selection of animations, I introduced a clever material swapping animation technique to animate the eyes and mouths, achieving an anime-style look. This animation style seamlessly blended with the game's overall visuals, resulting in an engaging and cohesive experience. I felt a great sense of accomplishment with the final outcome, and the positive feedback reinforced my decision to include animations in the project.
 
+![nekogof](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/e12c858d-b722-49d8-993b-01279a87c041)
 
 * 🔍 **Iterations + Improvements**
 
+I worked on two major refinements to help improve the experience
+one was the refinement of the slicing mechanic, and the other was the actual design of the restaurant
+
   - **The Refinened Slice**
-  
+After testing the thegame with peers in the midway poiint i realized the slicing although functional, needed some work for it to truly have that satisfying feeling.
+I reworked it so that as players move the knife downwards along a predefined angle threshold, it detects and interacts with sliceable objects. The script intelligently switches the knife's layer based on the slicing action, ensuring seamless transitions between slicing and normal behavior. When the knife successfully collides with a sliceable object, it splits the object into two separate parts with realistic physics interactions. These newly sliced objects go through a routine that sets them up with all the necesary compentents enabling them to interact naturally with the game environment. The script incorporates a cooldown mechanism, preventing players from performing consecutive slices too rapidly.
+
+![script](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/cbce63a5-8da0-4b35-ae58-4336db7060a2)
+![refined slice](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6e573d76-c121-4e50-a21e-2bf1df5997c4)
+
   - **Level Design**
+Introducing the new restaurant design was a decision aimed at creating a more natural integration with the exterior environment. Early versions of the interior felt somewhat closed off, limiting the player's ability to enjoy the outside surroundings. Despite my initial attachment to the previous design, I recognized the value of enhancing the overall experience by making this change.
+Incorporating the new restaurant design proved to be time-consuming, but it was undoubtedly worthwhile. The updated layout now significantly contributes to the immersive experience for players. The blend between the interior and exterior environments adds depth to the virtual world, creating a more captivating journey for users.
+
+![firstrestaurant](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/1562c456-7cf1-4999-888d-c76808d85df3)
+
 ![NewRestaurantExterior2](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/a97dd018-b2c3-4993-b4a5-df35d2a14c5b)  
 
 * 🌄 **Reflection**
