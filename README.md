@@ -309,13 +309,10 @@ The aim of this VR experience is to provide users with an engaging and entertain
 * 🧩 **Early Challenges**
   
 - **Pivoting Project Concept + Late Start:**
-During the early stages of the project, I initially set out to create a VR chemistry education app. However, as I delved deeper into the subject matter, I realized that the complexity of the content might hinder my ability to deliver a truly immersive and educational experience. Recognizing the importance of focusing on my strengths as a developer, I made the bold decision to pivot the project concept.
-<br> <!-- Add a line break here -->
-Inspired by my passion for Japanese cuisine and my background in the culinary arts, I reimagined the project and embarked on the creation of Neko Sushi. Leveraging my expertise in Japanese culinary techniques, I knew that this project would allow me to showcase my development skills while also tapping into my second-nature knowledge of the culinary world.
-<br> <!-- Add a line break here -->
+During the early stages of the project, I initially set out to create a VR chemistry education app. However, as I delved deeper into the subject matter, I realized that the complexity of the content might hinder my ability to deliver a truly immersive and educational experience. Recognizing the importance of focusing on my strengths as a developer, I made the bold decision to pivot the project concept.  
+Inspired by my passion for Japanese cuisine and my background in the culinary arts, I reimagined the project and embarked on the creation of Neko Sushi. Leveraging my expertise in Japanese culinary techniques, I knew that this project would allow me to showcase my development skills while also tapping into my second-nature knowledge of the culinary world.  
 Admittedly, this pivot resulted in a late start for the new project concept. However, I quickly adapted to the situation by prioritizing essential elements and optimizing my development process. This adaptive approach allowed me to make the most of the available time and resources, ensuring that the new project would be a true reflection of my abilities as a developer and my passion for Japanese cuisine.
-
-    
+ 
 * 🔄 **Adaptations + Solutions**
   
   - **Shotgun Design Process:**
