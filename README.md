@@ -162,38 +162,83 @@ The aim of this VR experience is to provide users with an engaging and entertain
 <br> <!-- Add a line break here -->
 
   - **3D Asset Creation**
+![Konro_01](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/50bc20db-4e16-4a49-900b-75888ce7fe87)
+![Neko](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6764aeca-53ba-4dea-a7f9-ec574f43b79c)
+![knifemodels](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/d56cc58d-2946-4db4-ba3a-8db8670a3245)
+![FishModel](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/4621a669-726f-45ec-87f0-3a233e39453e)
+
   - **Environment + Level Design**
+![EnviroProto_Optimized01](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/90d40076-f95e-4812-9a7a-009a3521f2b1)
+![firstrestaurant](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/b743396c-d7d4-4d6f-becc-66e423428e62)
+![NewRestaurantExterior2](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/7e45ceb4-f6f8-47a1-8c6b-d398088b28cc)
+![NewRestaurant2](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/f6d1030a-db72-40ca-af8e-b57aeff977d8)
+
   - **UI Designs + Prototypes**
+<img width="256" alt="Nakiri_FullIcon" src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/47f60da7-f522-4c44-860b-37951caeba85">
+![nakiriUI](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/9746b4b9-4c69-448f-bc6a-23d720f6666b)
+![DialogueUI](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/5b61587d-5323-4d3c-b571-a1255213689c)
+![instructionUIGIF](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/ff67b96b-f56d-4424-9379-2d4ef434520a)
+
+
 * 👋 **Hand Tracking Implementation**
-  - **Oculus Integration**
+
   - **AutoHand - VR Interaction Framework**
+![autohand](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/b5694fa6-9970-41df-a095-18d6551d20fa)
+ 
 * 🎮 **Gameplay Development**
+  
   - **Game Stages Recordings**
-* 🧪 **Testing + Iteration**
+    ![introSCenegif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/2bc23aff-e384-4f5b-b24a-6b26bf9782d9)
+    ![sakuGif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/23ad24de-79dc-4af0-b5aa-1715fca8af0e)
+    ![salmongif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/1bdddc29-b103-4156-83eb-c6ee37223af9)
+    ![forminggif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/8306a9f2-0747-4b62-9c40-5671410d1a30)
+
+* 🧪 **Testing**
   - **Play tests**
-  - **Refinements**
+
 * 💎 **Finalization + Polish**
+  
   - **Final Version**
+
   - **Optimizations**
+![optimizations](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/07f0cb8d-f57a-4741-9671-e0c056d02705)
 
 ## 🚀 Journey
 
 * 🧩 **Early Challenges**
+  
   - **Pivoting Project Concept**
+    
   - **Late Start**
+    
 * 🔄 **Adaptations + Solutions**
+  
   - **Shotgun Design Process**
+    
   - **Modular Approach**
-  - 
+    
 * 🌟 **Moments of Breakthrough**
+
   - **Shaders | Setting the Tone**
+![Shader](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/2f6d954a-43a6-440b-8410-2e414633c011)
+
   - **The First Slice**
+
   - **Character Creation**
+![konrogif](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/81783aff-d05e-4e1e-b637-fdf52c32cab6)
+
+
   - **Animation**
-  - **Level Design**
+![nekogof](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/e12c858d-b722-49d8-993b-01279a87c041)
+
+
 * 🔍 **Iterations + Improvements**
+
   - **The Refinened Slice**
-  - 
+  
+  - **Level Design**
+![NewRestaurantExterior2](https://github.com/NickDutka/NekoSushi_URP/assets/104876986/a97dd018-b2c3-4993-b4a5-df35d2a14c5b)  
+
 * 🌄 **Reflection**
 
  - **Lessons Learned**
