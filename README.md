@@ -337,10 +337,10 @@ Building custom shaders to define the project's visual style was a pivotal momen
 </div>
 
 
--**The First Slice:**
+- **The First Slice:**
 Building out one of the core mechanics of the game, slicing, marked a significant milestone in the development process. I recognized the importance of this mechanic in validating the project's potential and keeping the motivation high. Even during the early prototype stages, the slicing mechanic proved to be incredibly successful and engaging, reinforcing my belief in the project's direction.
 
--**Character Creation:**
+- **Character Creation:**
 Proceeding to model the two main characters featured in the game was a significant step in the project's development. Recognizing their crucial role in driving the story, I dedicated a good amount of attention to their design. As someone with a personal interest in 3D modeling and design, this phase allowed me to take a creative break from coding in Unity. The process was highly enjoyable, and I was pleased with the final results. The characters received positive feedback from friends and peers, validating their importance in the game and how they integrated into the overall experience.
 
 <div align="center">
