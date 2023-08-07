@@ -354,26 +354,22 @@ Once I had successfully rigged the characters and created a selection of animati
 <br> <!-- Add a line break here -->
 
 * 🔍 **Iterations + Improvements**
-
-I worked on two major refinements to help improve the experience
-one was the refinement of the slicing mechanic, and the other was the actual design of the restaurant
-
   - **The Refinened Slice:**
 After testing the thegame with peers in the midway poiint I realized the slicing although functional, needed some work for it to truly have that satisfying feeling.
 I reworked it so that as players move the knife downwards along a predefined angle threshold, it detects and interacts with sliceable objects. The script intelligently switches the knife's layer based on the slicing action, ensuring seamless transitions between slicing and normal behavior. When the knife successfully collides with a sliceable object, it splits the object into two separate parts with realistic physics interactions. These newly sliced objects go through a routine that sets them up with all the necesary compentents enabling them to interact naturally with the game environment. The script incorporates a cooldown mechanism, preventing players from performing consecutive slices too rapidly.
 
-<div align="center">
+    <p align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/cbce63a5-8da0-4b35-ae58-4336db7060a2)">
   <br>
   "Refined Slice"
-</div>
+    </p>
 <br> <!-- Add a line break here -->
 
-<div align="center">
+    <p align="center">
   <img src="https://github.com/NickDutka/NekoSushi_URP/assets/104876986/6e573d76-c121-4e50-a21e-2bf1df5997c4)">
   <br>
   "Refined Slice"
-</div>
+    </p>
 <br> <!-- Add a line break here -->
 
   - **Level Design**
