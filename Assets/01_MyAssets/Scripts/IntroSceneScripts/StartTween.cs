@@ -117,7 +117,7 @@ public class StartTween : MonoBehaviour
     private System.Collections.IEnumerator TeleportPlayer()
     {
         fadePlayer.StartFadeToBlack();
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(0.1f);
         PlayerGO.transform.position = teleAnchor.position;
         PlayerGO.transform.rotation = teleAnchor.rotation;
         fadePlayer.StartFadeFromBlack();
