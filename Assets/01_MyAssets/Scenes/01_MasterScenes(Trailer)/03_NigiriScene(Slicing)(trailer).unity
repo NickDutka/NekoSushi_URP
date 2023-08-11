@@ -33359,7 +33359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &1331061079584794948
 AudioListener:
   m_ObjectHideFlags: 0
@@ -67235,7 +67235,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   knifeBladeGO: {fileID: 1331061079647634195}
-  crossSectionMaterial: {fileID: 2100000, guid: 23829cdc5a89cf74b8f6ab3762220b8f,
+  crossSectionMaterial: {fileID: 2100000, guid: cbb783114ff57b443917df31adbaf0b0,
     type: 2}
   cutForce: 1
   velocityEstimator: {fileID: 1331061079021605042}
