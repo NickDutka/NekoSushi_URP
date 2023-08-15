@@ -65,6 +65,12 @@ public class NekoStepManager : MonoBehaviour
             isNekoEating = true;
             // play the eating animation
             nekoAnimator.SetEatingState(true);    
+
+            // disable button
+            // coroutine to go through steps 6-8
+            StartCoroutine(nekoDialogueManager.NekoEatingUpdateSteps());
+            nekoDialogueManager.physicsGadgetButton.enabled = false;
+            nekoDialogueManager.SetButtonState(false);
         }
         if(nekoStep == 8 && isFinishedEating == false)
         {

@@ -22,8 +22,8 @@ public class SliceObjectDistanceTraveled : MonoBehaviour
     private LayerMask defaultLayer;
     [SerializeField]
     private GameObject knifeBladeGO;
-    [SerializeField]
-    private Material crossSectionMaterial;
+    
+    public Material crossSectionMaterial;
     [SerializeField]
     private float cutForce = 2;
     public VelocityEstimator velocityEstimator;

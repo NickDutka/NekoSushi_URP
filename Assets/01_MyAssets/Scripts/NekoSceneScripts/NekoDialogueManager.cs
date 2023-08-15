@@ -13,6 +13,7 @@ public class NekoDialogueManager : MonoBehaviour
     [SerializeField] private StepInstructionsSO stepInstructionsSO; // Reference to the StepInstructionsSO scriptable object
     [SerializeField] private float fadeDuration = 0.5f; // Duration of the fade animation in seconds
 
+    public int dialogueWaitTime = 5;
     public int currentStep = 0; // Variable to track the current step index
     [SerializeField] private CanvasGroup canvasGroup; // Reference to the CanvasGroup component for fading animation
     [SerializeField] private GameObject nextButtonStage1; // Reference to the next button
@@ -22,7 +23,7 @@ public class NekoDialogueManager : MonoBehaviour
     public GameObject nekoUIAnchor;
     public TMP_Text nameText; // use to switch to neko's name
 
-    [SerializeField] private PhysicsGadgetButton physicsGadgetButton;
+    public PhysicsGadgetButton physicsGadgetButton;
     [SerializeField] private PhysicsGadgetButton physicsGadgetButton2;
 
     [SerializeField] private bool continueDialogue = false;
@@ -89,6 +90,20 @@ public class NekoDialogueManager : MonoBehaviour
             physicsGadgetButton.enabled = false;
             physicsGadgetButton2.enabled = false;
         }
+    }
+
+    public IEnumerator NekoEatingUpdateSteps()
+    {
+        yield return new WaitForSeconds(dialogueWaitTime);
+        MoveForward(); //...MMMMM....
+        yield return new WaitForSeconds(dialogueWaitTime);
+        MoveForward(); //...EXQUISITE....
+        yield return new WaitForSeconds(dialogueWaitTime);
+        MoveForward(); //...This is the best sushi....
+        yield return new WaitForSeconds(dialogueWaitTime);
+        MoveForward(); //...Konro theyre a keeper....
+        yield return new WaitForSeconds(dialogueWaitTime);
+        MoveForward(); //...Ill be seeing you soon....
     }
 
     private void UpdateDialogueText()

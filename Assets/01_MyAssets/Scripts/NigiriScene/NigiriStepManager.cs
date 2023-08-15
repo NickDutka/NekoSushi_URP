@@ -10,6 +10,8 @@ public class NigiriStepManager : MonoBehaviour
     public SakudoriCheck sakudoriCheck;
     public FadePlayer fadePlayer;
     public int nigiriStep;
+    public SliceObjectDistanceTraveled sliceObjectDistanceTraveled;
+    public Material tunaMaterial;
 
     // Step flags
     public bool sakudoriInstructionStarted;
@@ -87,6 +89,7 @@ public class NigiriStepManager : MonoBehaviour
         if(nigiriStep == 5 && tunaSakudoriStarted == false)
         {
             tunaSakudoriStarted = true;
+            sliceObjectDistanceTraveled.crossSectionMaterial = tunaMaterial;
             StartTunaSakudori();
         }
         // If the player finishes the tuna sakudori instruction, start the tuna nigiri instruction

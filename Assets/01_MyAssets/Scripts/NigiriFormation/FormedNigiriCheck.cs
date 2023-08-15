@@ -6,7 +6,7 @@ public class FormedNigiriCheck : MonoBehaviour
 {
 
     public string checkTag = "Nigiri";
-
+    public int nigiriCount = 8;
     public AudioClip triggerSound;
     public AudioClip winSound;
 
@@ -31,7 +31,7 @@ public class FormedNigiriCheck : MonoBehaviour
         }
 
         // Check specific objects are now inside the trigger
-        if (objectsInsideTrigger.Count == 8 && nigiriComplete == false)
+        if (objectsInsideTrigger.Count == nigiriCount && nigiriComplete == false)
         {
             Debug.Log("All slice objects are inside the trigger.");
             PlayWinSound();

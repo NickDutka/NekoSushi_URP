@@ -26,7 +26,7 @@ public class NigiriCheck : MonoBehaviour
         }
 
         // Check if both specific objects are now inside the trigger
-        if (objectsInsideTrigger.Count == 8 && salmonNigiriComplete == false)
+        if (objectsInsideTrigger.Count == 4 && salmonNigiriComplete == false)
         {
             Debug.Log("All slice objects are inside the trigger.");
             PlayTriggerSound();
@@ -38,7 +38,7 @@ public class NigiriCheck : MonoBehaviour
             }
             nigiriStepManager.nigiriStep = 4;
         }
-        if(objectsInsideTrigger.Count == 16 && tunaNigiriComplete == false)
+        if(objectsInsideTrigger.Count == 8 && tunaNigiriComplete == false)
         {
             Debug.Log("All slice objects are inside the trigger.");
             PlayTriggerSound();

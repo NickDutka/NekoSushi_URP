@@ -82,6 +82,7 @@ public class StartTween : MonoBehaviour
                 isWalkingAway = true;
                 StartPathMovementFromScript();
                 SetWalkingState(true);
+                StartCoroutine(TeleportPlayer());
             }
         }
 
@@ -110,14 +111,15 @@ public class StartTween : MonoBehaviour
         SetWalkingState(false);
         targetRotation = Quaternion.Euler(0f, 0f, 0f);
         isRotating = true; // Set the flag to true when we want to start rotating
-        StartCoroutine(TeleportPlayer());
+        //StartCoroutine(TeleportPlayer());
         Debug.Log("PathComplete");   
     }
 
     private System.Collections.IEnumerator TeleportPlayer()
     {
+        yield return new WaitForSeconds(3f);
         fadePlayer.StartFadeToBlack();
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(5f);
         PlayerGO.transform.position = teleAnchor.position;
         PlayerGO.transform.rotation = teleAnchor.rotation;
         fadePlayer.StartFadeFromBlack();
